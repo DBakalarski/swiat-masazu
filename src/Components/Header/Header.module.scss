@@ -3,3 +3,36 @@
 .header {
     background-color: $primary-color;
 }
+
+.header_menu {
+    display: flex;
+    padding-top: 52px;
+}
+
+.nav {
+    display: flex;
+    margin-left: 136px;
+
+}
+
+.nav_item {
+    display: flex;
+    margin-left: 30px;
+}
+
+.separator {
+    display: block;
+    margin: 13px 0 50px 0;
+    width: 117px;
+    height: 2px;
+    background-color: $text-color;
+}
+
+.description {
+    marginn-top: 128px;
+    max-width: 600px;
+}
+
+.additional_description {
+    max-width: 300px;
+}
