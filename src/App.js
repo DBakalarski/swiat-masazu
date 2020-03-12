@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header />
-        <Nav />
+        {/* <Nav /> */}
       </React.Fragment>
     )
 

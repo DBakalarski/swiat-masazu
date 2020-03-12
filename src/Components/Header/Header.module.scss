@@ -2,11 +2,17 @@
 
 .header {
     background-color: $primary-color;
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 .header_menu {
     display: flex;
     padding-top: 52px;
+}
+
+.header_content {
+    display: flex;
 }
 
 .nav {
@@ -29,10 +35,22 @@
 }
 
 .description {
-    marginn-top: 128px;
+    margin-top: 128px;
     max-width: 600px;
 }
 
-.additional_description {
+.main_description h1 {
+    font-size: 35px;
+    max-width: 596px;
+    font-family: $secondary-font;
+}
+
+.additional_description h2 {
     max-width: 300px;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.sign {
+    padding-top: 40px;
 }
