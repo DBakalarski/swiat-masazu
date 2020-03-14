@@ -3,7 +3,7 @@
 .header {
     background-color: $primary-color;
     height: 100vh;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .header_menu {
@@ -49,6 +49,7 @@
     max-width: 596px;
     font-family: $secondary-font;
     font-size: 35px;
+    //font-size: calc(35px + (47 - 35) * ((100vw - 1200px) / (1600 - 1200)));
 }
 
 .additional_description h2 {

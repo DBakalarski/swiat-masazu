@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+
+.pricing {
+    height: 100vh;
+    background-color: #fff;
+    color: $primary-color;
+    padding-top: 10px;
+}
+
+.title {
+    font-size: 35px;
+    font-family: $secondary-font;
+}
+
+.separator {
+    display: block;
+    margin: 25px 0 35px 0;
+    width: 117px;
+    height: 2px;
+    background-color: $primary-color;
+}
+
+.price_list {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 64px;
+}
+
+.massage_image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    //padding: 25px 0;
+
+    img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .price_items {
+        flex-grow: 1;
+    }
+}
