@@ -1,6 +1,11 @@
 import React from 'react';
 import styles from './Header.module.scss'
 import Slider from './Slider'
+import logoImage from '../../images/logo.svg'
+import checkImage from '../../images/check.svg'
+import pinImage from '../../images/pin.svg'
+import burgerMenu from '../../images/hamburger_menu.svg'
+import signImage from '../../images/sign.svg'
 
 const Header = () => {
     const { header, header_menu, logo, nav, nav_item, description, main_description, separator, additional_description, sign, header_content } = styles
@@ -12,19 +17,19 @@ const Header = () => {
                         <div className={header_menu}>
 
                             <div className={logo}>
-                                Logo
-                    </div>
+                                <img src={logoImage} alt="logo" />
+                            </div>
                             <div className={nav}>
                                 <div className={nav_item}>
-                                    <img src="" alt="" />
+                                    <img src={checkImage} alt="rezerwacja" />
                                     <p>Rezerwacja</p>
                                 </div>
                                 <div className={nav_item}>
-                                    <img src="" alt="" />
+                                    <img src={pinImage} alt="lokalizacja" />
                                     <p>Lokalizacja</p>
                                 </div>
                                 <div className={nav_item}>
-                                    <img src="" alt="" />
+                                    <img src={burgerMenu} alt="menu" />
                                     <p>Menu</p>
                                 </div>
                             </div>
@@ -38,15 +43,15 @@ const Header = () => {
                                 <h2>Specjalizuję się w masażach klasycznych i leczniczych.</h2>
                             </div>
                             <div className={sign}>
-                                Podpis
-                    </div>
+                                <img src={signImage} alt="podpis" />
+                            </div>
                         </div>
                     </div>
 
                     <Slider />
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 

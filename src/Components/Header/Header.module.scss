@@ -8,7 +8,8 @@
 
 .header_menu {
     display: flex;
-    padding-top: 52px;
+    padding-top: 42px;
+    align-items: center;
 }
 
 .header_content {
@@ -17,13 +18,18 @@
 
 .nav {
     display: flex;
-    margin-left: 136px;
+    margin-left: 2vw;
 
 }
 
 .nav_item {
     display: flex;
+    align-items: center;
     margin-left: 30px;
+
+    img {
+        padding-right: 15px;
+    }
 }
 
 .separator {
@@ -40,9 +46,9 @@
 }
 
 .main_description h1 {
-    font-size: 35px;
     max-width: 596px;
     font-family: $secondary-font;
+    font-size: 35px;
 }
 
 .additional_description h2 {
@@ -52,5 +58,5 @@
 }
 
 .sign {
-    padding-top: 40px;
+    padding-top: 50px;
 }
