@@ -1,0 +1,143 @@
+@import '../../variables.scss';
+
+.office {
+    color: $primary-color;
+    padding-top: 10px;
+}
+
+.office_container {
+    display: flex;
+}
+
+.title_container {
+    flex-frow: 1;
+}
+
+.title {
+    font-size: 35px;
+    font-family: $secondary-font;
+}
+
+.separator {
+    display: block;
+    margin: 25px 0 35px 0;
+    width: 117px;
+    height: 2px;
+    background-color: $primary-color;
+}
+
+.main_description {
+    font-size: 35px;
+    font-weight: bold;
+
+    span {
+        color: $secondary-color;
+    }
+}
+
+.additional_description {
+    font-size: 21px;
+    padding-top: 8px;
+}
+
+.button {
+    color: $secondary-color;
+    border: 1px solid $secondary-color;
+    border-radius: 60px;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $secondary-color;
+        color: #fff;
+    }
+}
+
+.book_container {
+    flex-grow: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.circle,
+.circle_top {
+    width: 210px;
+    height: 210px;
+    border: 1px solid $secondary-color;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.circle_top {
+    position: relative;
+    top: -35px;
+    margin: 0 10px;
+}
+
+.circle_time {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.circle_minutes {
+    font-size: 21px;
+}
+
+.cricle_button {
+    display: none;
+    color: $secondary-color;
+    border: 1px solid $secondary-color;
+    border-radius: 60px;
+    background-color: #fff;
+    padding: 8px 10px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $secondary-color;
+        color: #fff;
+    }
+}
+
+
+.circle::before,
+.circle_top:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 2px;
+    height: 0px;
+    background-color: $secondary-color;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.circle:hover,
+.circle_top:hover {
+    .circle_time {
+        color: $secondary-color;
+    }
+
+    .cricle_button {
+        display: block;
+    }
+
+    &::before {
+        height: 380px;
+    }
+}
