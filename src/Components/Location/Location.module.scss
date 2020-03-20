@@ -1,0 +1,67 @@
+@import '../../variables.scss';
+
+.location {
+    padding-top: 50px;
+    color: $primary-color;
+}
+
+.location_container {
+    font-family: $secondary-font;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.separator {
+    display: block;
+    margin: 25px 0 35px 0;
+    width: 117px;
+    height: 2px;
+    background-color: $primary-color;
+}
+
+.address {
+    font-size: 37px;
+}
+
+.button {
+    margin-top: 50px;
+    border: 1px solid $secondary-color;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_text {
+    color: $secondary-color;
+    padding: 0 20px 0 15px;
+    font-weight: bold;
+}
+
+.image_container {
+    border: 1px solid $secondary-color;
+    //padding: 5px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 5px 10px;
+    background-color: #fff;
+}
+
+.button:hover {
+    background-color: $secondary-color;
+
+    .button_text {
+        color: #fff;
+    }
+}

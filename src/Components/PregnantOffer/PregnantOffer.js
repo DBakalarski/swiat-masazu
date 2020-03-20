@@ -1,7 +1,8 @@
 import React from 'react';
-import styles from './PregnantOffer.module.scss'
-import pregnantImage from '../../images/pregnant.png'
-import PriceItem from '../Pricing/PriceItem'
+import styles from './PregnantOffer.module.scss';
+import pregnantImage from '../../images/pregnant.png';
+import PregnantOfferItem from './PregnantOfferItem'
+
 
 const PregnantOffer = () => {
     const { pregnant, description_container, description, header, separator, pregnant_container, main_description, additional_separator, additional_description, pricing_container, pricing_header, pricing_separator, pricing_content } = styles
@@ -33,9 +34,17 @@ const PregnantOffer = () => {
                     <div className={pricing_container}>
                         <div className={pricing_header}>Cennik usług<span className={pricing_separator}></span></div>
                         <div className={pricing_content}>
-                            <PriceItem
+                            <PregnantOfferItem
                                 content="masaż kobiet ciężarnych"
-                                price="60zł"
+                                price="70zł"
+                            />
+                            <PregnantOfferItem
+                                content="masaż kobiet ciężarnych"
+                                price="70zł"
+                            />
+                            <PregnantOfferItem
+                                content="terapia opracowania blizny"
+                                price="70zł"
                             />
                         </div>
                     </div>
