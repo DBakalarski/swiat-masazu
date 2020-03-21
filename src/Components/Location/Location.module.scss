@@ -3,6 +3,11 @@
 .location {
     padding-top: 50px;
     color: $primary-color;
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .location_container {

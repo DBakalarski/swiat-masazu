@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Location.module.scss'
+import ClientCard from '../ClientCard/ClientCard'
 import pinImage from '../../images/pin2.svg'
 
 
@@ -20,6 +21,7 @@ const Location = () => {
                         </div>
                     </div>
                 </div>
+                <ClientCard />
             </div>
 
         </section>

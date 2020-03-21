@@ -1,0 +1,100 @@
+@import '../../variables.scss';
+
+.footer {
+    overflow-x: hidden;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid $secondary-color;
+    width: 120px;
+    border-radius: 60px;
+    position: relative;
+    background-color: #fff;
+
+    &::before {
+        z-index: -1;
+        content: '';
+        width: 100vw;
+        height: 1px;
+        background-color: $secondary-color;
+        position: absolute;
+
+    }
+
+    p {
+        color: $secondary-color;
+        font-size: 17px;
+    }
+}
+
+.footer_text {
+    color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer_contact {
+    div {
+        display: flex;
+        padding-top: 15px;
+
+        p {
+            padding-left: 20px;
+
+            span {
+                display: block;
+            }
+        }
+    }
+
+}
+
+.footer_short {
+    .title {
+        font-size: 21px;
+        font-weight: bold;
+
+        .separator {
+            display: block;
+            margin: 15px 0 15px 0;
+            width: 117px;
+            height: 2px;
+            background-color: $primary-color;
+        }
+    }
+
+    p {
+        padding-top: 11px;
+        cursor: pointer;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+.footer_image {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: -50px;
+
+    .photo {
+        width: 395px;
+    }
+
+    .sign {
+        padding-top: 20px;
+    }
+
+}
