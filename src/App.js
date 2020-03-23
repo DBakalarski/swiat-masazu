@@ -15,6 +15,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        {/* <MenuOpen /> */}
         <Header />
         <Pricing />
         <OfficeOffer />

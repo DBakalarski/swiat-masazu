@@ -6,58 +6,8 @@
     overflow: hidden;
 }
 
-.header_menu {
-    display: flex;
-    padding-top: 42px;
-    align-items: center;
-}
+
 
 .header_content {
     display: flex;
-}
-
-.nav {
-    display: flex;
-    margin-left: 2vw;
-
-}
-
-.nav_item {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-
-    img {
-        padding-right: 15px;
-    }
-}
-
-.separator {
-    display: block;
-    margin: 13px 0 50px 0;
-    width: 117px;
-    height: 2px;
-    background-color: $text-color;
-}
-
-.description {
-    margin-top: 128px;
-    max-width: 600px;
-}
-
-.main_description h1 {
-    max-width: 596px;
-    font-family: $secondary-font;
-    font-size: 35px;
-    //font-size: calc(35px + (47 - 35) * ((100vw - 1200px) / (1600 - 1200)));
-}
-
-.additional_description h2 {
-    max-width: 300px;
-    font-size: 21px;
-    font-weight: normal;
-}
-
-.sign {
-    padding-top: 50px;
 }
