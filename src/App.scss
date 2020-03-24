@@ -22,6 +22,21 @@ section {
     //overflow-x: hidden;
 }
 
+/** simpe bar over write*/
+.simplebar-scrollbar:before {
+    background: #0E3D57 !important;
+    opacity: 1 !important;
+    border-radius: 60px;
+    padding: 1px;
+}
+
+.simplebar-track {
+    border: 1px solid #B69969;
+    border-radius: 60px;
+    width: 9px !important;
+}
+
+
 @media (min-width: 1600px) {
     .container {
         max-width: 1550px;

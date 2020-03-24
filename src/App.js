@@ -11,12 +11,23 @@ import Footer from './Components/Footer/Footer'
 import Nav from './Components/Nav/Nav'
 
 class App extends Component {
+  state = {
+    menuOpen: false
+  }
 
+  changeMenuState = () => {
+    this.setState({
+      menuOpen: !this.state.menuOpen
+    })
+  }
   render() {
     return (
       <React.Fragment>
         {/* <MenuOpen /> */}
-        <Header />
+        <Header
+          click={this.changeMenuState}
+          isMenuOpen={this.state.menuOpen}
+        />
         <Pricing />
         <OfficeOffer />
         <PregnantOffer />

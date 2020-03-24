@@ -1,5 +1,9 @@
 @import '../../variables.scss';
 
+.header_container {
+    z-index: 1;
+}
+
 .header_menu {
     display: flex;
     padding-top: 42px;
@@ -56,8 +60,8 @@
 
 nav {
     margin-top: 60px;
-    max-height: 330px;
-    overflow: hidden;
+    height: 330px;
+    width: 350px;
 }
 
 .nav_item {

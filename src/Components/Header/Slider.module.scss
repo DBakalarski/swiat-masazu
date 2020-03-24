@@ -9,6 +9,21 @@
     position: relative;
     top: -15px;
     @extend %center;
+
+
+}
+
+.slider_menuOpen {
+    &::before {
+        //content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -999999px;
+        background-color: #fff;
+        right: 50%;
+        z-index: 0;
+    }
 }
 
 .circle_big {

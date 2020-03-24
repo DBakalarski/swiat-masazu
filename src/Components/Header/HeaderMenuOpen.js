@@ -2,9 +2,11 @@ import React from 'react';
 import logoImage from '../../images/logo.svg';
 import closeImage from '../../images/close.svg';
 import styles from './HeaderMenuOpen.module.scss';
-import CustomScroll from '../../../node_modules/react-custom-scroll';
+import SimpleBar from 'simplebar-react';
+import 'simplebar/dist/simplebar.min.css';
 
-const HeaderMenuClose = () => {
+
+const HeaderMenuClose = (props) => {
     const { header_menu, logo, nav_close, navclose_item, description, main_description, separator, mail, header_container, nav_item, number, section_link, section_name, section_desc, section_separator } = styles
     return (
         <div className={header_container}>
@@ -13,7 +15,7 @@ const HeaderMenuClose = () => {
                 <div className={logo}>
                     <img src={logoImage} alt="logo" />
                 </div>
-                <div className={nav_close}>
+                <div onClick={props.click} className={nav_close}>
                     <div className={navclose_item}>
                         <img src={closeImage} alt="menu" />
                         <p>Zamknij</p>
@@ -22,7 +24,18 @@ const HeaderMenuClose = () => {
             </div>
 
             <nav>
-                <CustomScroll heightRelativeToParent="100%">
+                <SimpleBar style={{ maxHeight: 300 }}>
+                    <a href="/price">
+                        <div className={nav_item}>
+                            <div className={number}>1</div>
+                            <div className={section_link}>
+                                <div className={section_name}>Zakres usług</div>
+                                <div className={section_desc}>Szeroka oferta zabiegów</div>
+                                <span className={section_separator}></span>
+                            </div>
+                        </div>
+                    </a>
+
                     <div className={nav_item}>
                         <div className={number}>1</div>
                         <div className={section_link}>
@@ -71,15 +84,7 @@ const HeaderMenuClose = () => {
                             <span className={section_separator}></span>
                         </div>
                     </div>
-                    <div className={nav_item}>
-                        <div className={number}>1</div>
-                        <div className={section_link}>
-                            <div className={section_name}>Zakres usług</div>
-                            <div className={section_desc}>Szeroka oferta zabiegów</div>
-                            <span className={section_separator}></span>
-                        </div>
-                    </div>
-                </CustomScroll>
+                </SimpleBar>
             </nav>
             <div className={description}>
                 <div className={main_description}>

@@ -6,10 +6,10 @@ import burgerMenu from '../../images/hamburger_menu.svg'
 import signImage from '../../images/sign.svg'
 import styles from './HeaderMenuClose.module.scss'
 
-const HeaderMenuClose = () => {
-    const { header_menu, logo, nav, nav_item, description, main_description, separator, additional_description, sign } = styles
+const HeaderMenuClose = (props) => {
+    const { header_container, header_menu, logo, nav, nav_item, description, main_description, separator, additional_description, sign } = styles
     return (
-        <div>
+        <div className={header_container}>
             <div className={header_menu}>
 
                 <div className={logo}>
@@ -24,7 +24,7 @@ const HeaderMenuClose = () => {
                         <img src={pinImage} alt="lokalizacja" />
                         <p>Lokalizacja</p>
                     </div>
-                    <div className={nav_item}>
+                    <div onClick={props.click} className={nav_item}>
                         <img src={burgerMenu} alt="menu" />
                         <p>Menu</p>
                     </div>

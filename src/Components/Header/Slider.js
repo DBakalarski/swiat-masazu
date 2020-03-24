@@ -73,9 +73,9 @@ class Slider extends Component {
     render() {
         console.log(`w render ${this.state.slideNumber}`)
         //const nslides = [...slides]
-        const { slider, circle_big, circle_small, slider_title, arrow_left, arrow_right, title } = styles;
+        const { slider, circle_big, circle_small, slider_title, arrow_left, arrow_right, title, slider_menuOpen } = styles;
         return (
-            <div className={slider}>
+            <div className={this.props.isMenuOpen ? { slider, slider_menuOpen } : slider}>
                 <div className={circle_big}>
                     <div className={circle_small}>
                         <img src={slides[this.state.slideNumber].img} alt="" />

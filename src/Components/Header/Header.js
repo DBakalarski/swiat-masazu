@@ -5,15 +5,19 @@ import HeaderMenuCLose from './HeaderMenuClose';
 import HeaderMenuOpen from './HeaderMenuOpen';
 
 
-const Header = () => {
+const Header = (props) => {
     const { header, header_content } = styles
+    let isMenuOpen = props.isMenuOpen;
     return (
         <section className={header}>
             <div className="container">
                 <div className={header_content}>
-                    {/* <HeaderMenuCLose /> */}
-                    <HeaderMenuOpen />
-                    <Slider />
+                    {isMenuOpen ?
+                        <HeaderMenuOpen click={props.click} /> :
+                        <HeaderMenuCLose click={props.click} />}
+                    <Slider
+                        isMenuOpen={props.isMenuOpen}
+                    />
                 </div>
             </div>
         </section >
