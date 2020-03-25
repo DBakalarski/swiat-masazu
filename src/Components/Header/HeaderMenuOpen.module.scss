@@ -9,6 +9,7 @@
     padding-top: 42px;
     align-items: center;
     justify-content: space-between;
+    width: 600px;
 }
 
 .header_container {
@@ -69,6 +70,7 @@ nav {
     color: $secondary-color;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .number {
@@ -104,4 +106,7 @@ nav {
     width: 117px;
     height: 1px;
     background-color: $primary-color;
+}
+a {
+    text-decoration: none;
 }

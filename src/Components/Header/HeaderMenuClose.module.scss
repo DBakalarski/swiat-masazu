@@ -4,12 +4,17 @@
     display: flex;
     padding-top: 42px;
     align-items: center;
+    width:600px;
 }
 
 .nav {
     display: flex;
     margin-left: 2vw;
 
+}
+
+.logo, .nav_item {
+    cursor: pointer;
 }
 
 .nav_item {

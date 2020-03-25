@@ -38,13 +38,12 @@ class Slider extends Component {
     }
 
     changeSlides = (sign) => {
-        //debugger;
+
         const prevSlide = this.state.slideNumber - 1;
         const nextSlide = this.state.slideNumber + 1;
 
         const slidesLength = slides.length;
 
-        console.log(`przed zmianą state ${this.state.slideNumber}`)
         if (sign === '-') {
             if (prevSlide < 0) {
                 this.setState({
@@ -70,12 +69,31 @@ class Slider extends Component {
 
     }
 
+
+    componentDidMount() {
+     this.intervalID = setInterval( this.changeSlides, 1000);
+     
+    }
+
+    clearIntervalFunction = () => {
+        clearInterval(this.intervalID)
+    }
+
+    startIntervalFunction = () => {
+        this.intervalID = setInterval( this.changeSlides, 1000);
+    }
+
     render() {
-        console.log(`w render ${this.state.slideNumber}`)
+        console.log(this.intervalID )
         //const nslides = [...slides]
         const { slider, circle_big, circle_small, slider_title, arrow_left, arrow_right, title, slider_menuOpen } = styles;
+        
         return (
-            <div className={this.props.isMenuOpen ? { slider, slider_menuOpen } : slider}>
+            <div 
+            onMouseEnter={this.startIntervalFunction}
+            onMouseLeave={this.clearIntervalFunction} 
+            className={this.props.isMenuOpen ? `${slider} ${slider_menuOpen} ` : slider}
+            >
                 <div className={circle_big}>
                     <div className={circle_small}>
                         <img src={slides[this.state.slideNumber].img} alt="" />
