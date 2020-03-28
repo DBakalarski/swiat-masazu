@@ -8,7 +8,7 @@ import massage from '../../images/massage.png'
 const Pricing = () => {
     const { pricing, price_content, title, separator, price_list, massage_image, price_items } = styles
     return (
-        <section id="price" className={pricing}>
+        <section id="cennik-uslug" className={pricing}>
             <div className="container">
                 <div className={price_content}>
                     <div className={title}>

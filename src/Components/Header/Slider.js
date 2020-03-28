@@ -71,8 +71,8 @@ class Slider extends Component {
 
 
     componentDidMount() {
-     this.intervalID = setInterval( this.changeSlides, 1000);
-     
+        //this.intervalID = setInterval( this.changeSlides, 1000);
+
     }
 
     clearIntervalFunction = () => {
@@ -80,19 +80,19 @@ class Slider extends Component {
     }
 
     startIntervalFunction = () => {
-        this.intervalID = setInterval( this.changeSlides, 1000);
+        this.intervalID = setInterval(this.changeSlides, 3000);
     }
 
     render() {
-        console.log(this.intervalID )
+        console.log(this.intervalID)
         //const nslides = [...slides]
         const { slider, circle_big, circle_small, slider_title, arrow_left, arrow_right, title, slider_menuOpen } = styles;
-        
+
         return (
-            <div 
-            onMouseEnter={this.startIntervalFunction}
-            onMouseLeave={this.clearIntervalFunction} 
-            className={this.props.isMenuOpen ? `${slider} ${slider_menuOpen} ` : slider}
+            <div
+                // onMouseEnter={this.clearIntervalFunction}
+                // onMouseLeave={this.startIntervalFunction}
+                className={this.props.isMenuOpen ? `${slider} ${slider_menuOpen} ` : slider}
             >
                 <div className={circle_big}>
                     <div className={circle_small}>

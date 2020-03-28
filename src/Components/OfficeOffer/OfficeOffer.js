@@ -4,7 +4,7 @@ import styles from './OfficeOffer.module.scss'
 const OfficeOffer = () => {
     const { office, title, separator, description, email, main_description, button, additional_description, office_container, book_container, circle, circle_top, circle_time, circle_minutes, cricle_button, title_container } = styles
     return (
-        <section className={office}>
+        <section id="oferta-dla-firm" className={office}>
             <div className="container">
                 <div className={office_container}>
                     <div className={title_container}>

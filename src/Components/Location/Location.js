@@ -7,7 +7,7 @@ import pinImage from '../../images/pin2.svg'
 const Location = () => {
     const { location, location_container, header, separator, address, button, image_container, button_text } = styles;
     return (
-        <section className={location}>
+        <section id="lokalizacja" className={location}>
             <div className="container">
                 <div className={location_container}>
                     <div className={header}>Lokalizacja<span className={separator}></span></div>

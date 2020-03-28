@@ -25,7 +25,7 @@ const HeaderMenuOpen = (props) => {
 
             <nav>
                 <SimpleBar style={{ maxHeight: 300 }}>
-                    <a href="/price">
+                    <a onClick={props.click} href="#cennik-uslug">
                         <div className={nav_item}>
                             <div className={number}>1</div>
                             <div className={section_link}>
@@ -35,39 +35,46 @@ const HeaderMenuOpen = (props) => {
                             </div>
                         </div>
                     </a>
-
-                    <div className={nav_item}>
-                        <div className={number}>2</div>
-                        <div className={section_link}>
-                            <div className={section_name}>Oferta dla firm</div>
-                            <div className={section_desc}>Szeroka oferta zabiegów</div>
-                            <span className={section_separator}></span>
+                    <a onClick={props.click} href="#oferta-dla-firm">
+                        <div className={nav_item}>
+                            <div className={number}>2</div>
+                            <div className={section_link}>
+                                <div className={section_name}>Oferta dla firm</div>
+                                <div className={section_desc}>Szeroka oferta zabiegów</div>
+                                <span className={section_separator}></span>
+                            </div>
                         </div>
-                    </div>
-                    <div className={nav_item}>
-                        <div className={number}>3</div>
-                        <div className={section_link}>
-                            <div className={section_name}>Masaż kobiet ciężarnych</div>
-                            <div className={section_desc}>Szeroka oferta zabiegów</div>
-                            <span className={section_separator}></span>
+                    </a>
+                    <a onClick={props.click} href="#masaz-ciaza">
+                        <div className={nav_item}>
+                            <div className={number}>3</div>
+                            <div className={section_link}>
+                                <div className={section_name}>Masaż kobiet ciężarnych</div>
+                                <div className={section_desc}>Szeroka oferta zabiegów</div>
+                                <span className={section_separator}></span>
+                            </div>
                         </div>
-                    </div>
-                    <div className={nav_item}>
-                        <div className={number}>4</div>
-                        <div className={section_link}>
-                            <div className={section_name}>Lokalizacja</div>
-                            <div className={section_desc}>Szeroka oferta zabiegów</div>
-                            <span className={section_separator}></span>
+                    </a>
+                    <a onClick={props.click} href="#lokalizacja">
+                        <div className={nav_item}>
+                            <div className={number}>4</div>
+                            <div className={section_link}>
+                                <div className={section_name}>Lokalizacja</div>
+                                <div className={section_desc}>Szeroka oferta zabiegów</div>
+                                <span className={section_separator}></span>
+                            </div>
                         </div>
-                    </div>
-                    <div className={nav_item}>
-                        <div className={number}>5</div>
-                        <div className={section_link}>
-                            <div className={section_name}>Zarezerwuj wizytę</div>
-                            <div className={section_desc}>Szeroka oferta zabiegów</div>
-                            <span className={section_separator}></span>
+                    </a>
+                    <a onClick={props.click} href="#rezerwacja">
+                        <div className={nav_item}>
+                            <div className={number}>5</div>
+                            <div className={section_link}>
+                                <div className={section_name}>Zarezerwuj wizytę</div>
+                                <div className={section_desc}>Szeroka oferta zabiegów</div>
+                                <span className={section_separator}></span>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
                 </SimpleBar>
             </nav>

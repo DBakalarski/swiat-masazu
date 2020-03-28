@@ -7,7 +7,7 @@ import PregnantOfferItem from './PregnantOfferItem'
 const PregnantOffer = () => {
     const { pregnant, description_container, description, header, separator, pregnant_container, main_description, additional_separator, additional_description, pricing_container, pricing_header, pricing_separator, pricing_content } = styles
     return (
-        <section className={pregnant}>
+        <section id="masaz-ciaza" className={pregnant}>
             <div className="container">
                 <div className={pregnant_container}>
 

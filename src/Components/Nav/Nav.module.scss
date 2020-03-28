@@ -1,6 +1,76 @@
 @import '../../variables.scss';
 
-.error {
+.fixedFooter {
     background-color: #fff;
-    color: black;
+    width: 100vw;
+    border-top: 1px solid $secondary-color;
+    //box-shadow: -2px -10px 58px 0px rgba(0, 0, 0, 0.65);
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: $primary-color;
+    //box-shadow: 50px 3px 20px #9B9B9B29;
+    z-index: 99999;
+    transform: translateY(120%);
+    //bottom: -100px;
+    transition: .5s;
+}
+
+.fixedFooterAniamtion {
+    transform: translateY(0) //bottom: 0;
+}
+
+.fixedFooter_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: relative;
+}
+
+.facebok_container {
+    display: flex;
+
+    p {
+        font-weight: bold;
+        padding-left: 15px;
+    }
+}
+
+.backOnTop {
+    display: flex;
+    justify-content: center;
+
+    .arrow {
+        border: 1px solid $secondary-color;
+        border-radius: 50%;
+        width: 37px;
+        height: 37px;
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+
+        img {
+            width: 100%
+        }
+    }
+
+    p {
+        color: $secondary-color;
+        font-weight: bold;
+    }
+}
+
+.contact {
+    display: flex;
+
+    img {
+        padding-right: 7px;
+    }
+
+    p {
+        padding-left: 7px;
+        font-weight: bold;
+    }
 }

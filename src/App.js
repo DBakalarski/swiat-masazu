@@ -12,7 +12,8 @@ import Nav from './Components/Nav/Nav'
 
 class App extends Component {
   state = {
-    menuOpen: false
+    menuOpen: false,
+    scrollPosition: 0
   }
 
   changeMenuState = () => {
@@ -20,10 +21,20 @@ class App extends Component {
       menuOpen: !this.state.menuOpen
     })
   }
+
+  changeScrollPosition = () => {
+    this.setState({
+      scrollPosition: window.scrollY
+    })
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.changeScrollPosition);
+  }
+
   render() {
     return (
       <React.Fragment>
-        {/* <MenuOpen /> */}
         <Header
           click={this.changeMenuState}
           isMenuOpen={this.state.menuOpen}
@@ -34,7 +45,8 @@ class App extends Component {
         <Location />
         <Social />
         <Footer />
-        {/* <Nav /> */}
+        {this.state.scrollPosition > 100 ? <Nav /> : null}
+
       </React.Fragment>
     )
 

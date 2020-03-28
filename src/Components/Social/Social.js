@@ -5,7 +5,7 @@ import booksyButton from '../../images/booksy-button.png';
 const Social = () => {
     const { social, booksy_container, facebook_container, booksy_button, title, separator, button, description, circle_number, additional_description } = styles;
     return (
-        <section className={social}>
+        <section id="rezerwacja" className={social}>
             <div className="container">
                 <div className={booksy_container}>
                     <div className={booksy_button}>
