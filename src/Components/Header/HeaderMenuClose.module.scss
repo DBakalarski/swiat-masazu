@@ -4,7 +4,7 @@
     display: flex;
     padding-top: 42px;
     align-items: center;
-    width:600px;
+    width: 600px;
 }
 
 .nav {
@@ -13,7 +13,8 @@
 
 }
 
-.logo, .nav_item {
+.logo,
+.nav_item {
     cursor: pointer;
 }
 
@@ -36,7 +37,7 @@
 }
 
 .description {
-    margin-top: 128px;
+    margin-top: 80px;
     max-width: 600px;
 }
 
@@ -55,4 +56,37 @@
 
 .sign {
     padding-top: 50px;
+}
+
+@media (max-width: 992px) {
+    .header_menu {
+        width: auto;
+        justify-content: center;
+        ;
+    }
+
+    .description {
+        max-width: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_description h1 {
+        text-align: center;
+    }
+
+    .separator {
+
+        margin: 13px auto 30px auto;
+    }
+
+    .header_container {
+        width: 100%;
+    }
+
+    .header_menu {
+        justify-content: space-between;
+        width: 100%;
+    }
 }

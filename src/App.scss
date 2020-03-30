@@ -42,3 +42,11 @@ section {
         max-width: 1550px;
     }
 }
+
+@media (max-width: 992px) {
+    section {
+        width: 100vw;
+        padding: 0 30px;
+        overflow-x: hidden;
+    }
+}
