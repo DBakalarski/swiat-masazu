@@ -103,3 +103,19 @@ footer {
     }
 
 }
+
+@media (max-width: 992px) {
+    footer {
+        padding: 30px 30px 100px 30px;
+    }
+
+    .footer_image {
+        .photo {
+            width: 200px;
+        }
+    }
+
+    .footer_text {
+        width: 70%;
+    }
+}

@@ -101,5 +101,22 @@
 
     .description_container {
         align-items: flex-start;
+        max-width: 100%;
     }
+
+    .pricing_header {
+        align-items: flex-start;
+    }
+
+    .separator,
+    .pricing_separator {
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    .pricing_container {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+
 }

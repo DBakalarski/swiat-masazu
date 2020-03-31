@@ -6,6 +6,7 @@ import mailImage from '../../images/mail.svg';
 import phoneImage from '../../images/phone.svg';
 import klaudiaPhoto from '../../images/klaudia_footerS.png';
 import signImage from '../../images/sign-blue.svg';
+import pinImage from '../../images/pin-blue.svg';
 
 
 const Footer = () => {
@@ -26,7 +27,7 @@ const Footer = () => {
                                     <p>facebbok</p>
                                 </div>
                                 <div className={loaction}>
-                                    <img src="" alt="" />
+                                    <img src={pinImage} alt="" />
                                     <p>ul. Piątkowska 181 <span>60-681 Poznań</span></p>
                                 </div>
                                 <div className={phone}>

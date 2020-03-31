@@ -72,3 +72,15 @@
         width: 500px;
     }
 }
+
+@media (max-width: 992px) {
+    .price_item {
+        width: 100%;
+    }
+
+    .description {
+        flex-basis: 50%;
+        justify-content: space-around;
+    }
+
+}
