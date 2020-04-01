@@ -76,3 +76,13 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .title {
+        padding-left: 15px;
+    }
+
+    .price_list {
+        padding: 30px 15px 30px 15px;
+    }
+}

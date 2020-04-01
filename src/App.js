@@ -13,6 +13,7 @@ import Nav from './Components/Nav/Nav'
 class App extends Component {
   state = {
     menuOpen: false,
+    width: window.innerWidth,
     scrollPosition: 0
   }
 
@@ -28,8 +29,15 @@ class App extends Component {
     })
   }
 
+  changeWindowSize = () => {
+    this.setState({
+      width: window.innerWidth,
+    })
+  }
+
   componentDidMount() {
     window.addEventListener('scroll', this.changeScrollPosition);
+    window.addEventListener('resize', this.changeWindowSize)
   }
 
   render() {

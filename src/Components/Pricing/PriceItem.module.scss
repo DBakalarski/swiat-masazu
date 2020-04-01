@@ -82,3 +82,23 @@
         justify-content: space-around;
     }
 }
+
+@media (max-width: 768px) {
+    .description {
+        justify-content: flex-end;
+        padding-left: 10px;
+    }
+
+    .price_title::before {
+        bottom: -3px;
+    }
+
+    .price {
+        min-width: 65px;
+        padding-left: 0;
+    }
+
+    .price_title {
+        font-size: 20px;
+    }
+}

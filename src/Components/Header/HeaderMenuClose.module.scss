@@ -90,3 +90,41 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .nav_item {
+        display: none;
+
+        &:last-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            img {
+                padding-right: 0;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .header_menu {
+        align-items: flex-start;
+    }
+
+    .description {
+        margin-top: 40px;
+        align-items: flex-start;
+    }
+
+    .main_description h1 {
+        text-align: left;
+    }
+
+    .separator {
+        margin: 13px 0 25px 0;
+    }
+
+    .sign {
+        padding-top: 35px;
+    }
+}
