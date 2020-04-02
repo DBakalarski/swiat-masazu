@@ -84,3 +84,18 @@
     }
 
 }
+
+@media (max-width: 768px) {
+    .price_title::before {
+        bottom: 0;
+    }
+
+    .price {
+        min-width: 60px;
+        padding-left: 0;
+    }
+
+    .description {
+        justify-content: flex-end;
+    }
+}

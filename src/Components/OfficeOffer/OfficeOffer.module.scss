@@ -229,10 +229,56 @@
 
 @media (max-width: 768px) {
     .book_container {
-
+        margin-top: 35px;
 
         &::before {
             display: none;
         }
+
+        .circle_top {
+            &:before {
+                display: none;
+            }
+        }
+
+
     }
+
+    .circle,
+    .circle_top,
+    .circle_top:hover {
+        width: 100px;
+        height: 100px;
+
+        .cricle_button {
+            display: none;
+
+
+        }
+    }
+
+
+    .circle_time {
+        font-size: 30px;
+    }
+
+    .circle:hover,
+    .circle_top:hover {
+        .circle_time {
+            color: $secondary-color;
+        }
+
+        .cricle_button {
+            display: none;
+        }
+
+        &::before {
+            height: 0;
+        }
+    }
+
+    .book_container:hover .circle_top:hover .cricle_button {
+        display: none;
+    }
+
 }
