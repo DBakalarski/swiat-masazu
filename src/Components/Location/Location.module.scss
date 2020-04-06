@@ -74,3 +74,23 @@
 
 
 @media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .location {
+        padding-bottom: 120px;
+        overflow-y: hidden;
+
+        >div {
+            flex-direction: column;
+        }
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+
+    .separator {
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+}

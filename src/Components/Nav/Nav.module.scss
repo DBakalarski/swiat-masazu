@@ -74,3 +74,26 @@
         font-weight: bold;
     }
 }
+
+@media (max-width: 768px) {
+    .fixedFooter {
+        padding: 0 15px;
+    }
+
+    .contact {
+        flex-basis: 25%;
+        justify-content: flex-end;
+
+        p {
+            display: none;
+        }
+    }
+
+    .facebok_container {
+        flex-basis: 25%;
+
+        p {
+            padding-left: 10px;
+        }
+    }
+}

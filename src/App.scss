@@ -7,13 +7,16 @@
     box-sizing: border-box;
 }
 
+a {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    color: inherit;
+}
+
 body {
     color: $text-color;
     font-family: $primary-font
-}
-
-section {
-    //min-height: 100vh;
 }
 
 .container {

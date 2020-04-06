@@ -36,16 +36,25 @@ class App extends Component {
   }
 
   componentDidMount() {
+
     window.addEventListener('scroll', this.changeScrollPosition);
     window.addEventListener('resize', this.changeWindowSize)
   }
 
+  componentDidUpdate() {
+    if (this.state.width < 968 && this.state.menuOpen === true) {
+      document.body.style.overflow = "hidden";
+    } else document.body.style.overflow = "auto"
+  }
+
   render() {
+
     return (
       <React.Fragment>
         <Header
           click={this.changeMenuState}
           isMenuOpen={this.state.menuOpen}
+          width={this.state.width}
         />
         <Pricing />
         <OfficeOffer />

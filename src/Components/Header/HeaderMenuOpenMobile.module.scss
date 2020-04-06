@@ -1,15 +1,22 @@
 @import '../../variables.scss';
 
-.header_container {
-    z-index: 1;
+
+.header_mobile {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 999999;
+    padding: 0 15px;
 }
 
 .header_menu {
     display: flex;
-    padding-top: 42px;
+    padding-top: 25px;
     align-items: center;
     justify-content: space-between;
-    width: 600px;
 }
 
 .header_container {
@@ -26,11 +33,12 @@
 
 .navclose_item {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     margin-left: 30px;
 
     img {
-        padding-right: 15px;
+        padding-left: 15px;
     }
 }
 
@@ -111,12 +119,4 @@ nav {
 
 a {
     text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    section {
-        width: 100vw;
-        padding: 0 15px;
-        overflow-x: hidden;
-    }
 }

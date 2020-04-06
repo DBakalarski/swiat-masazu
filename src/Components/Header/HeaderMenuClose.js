@@ -16,14 +16,14 @@ const HeaderMenuClose = (props) => {
                     <img src={logoImage} alt="logo" />
                 </div>
                 <div className={nav}>
-                    <div className={nav_item}>
+                    <a href="/#rezerwacja" className={nav_item}>
                         <img src={checkImage} alt="rezerwacja" />
                         <p>Rezerwacja</p>
-                    </div>
-                    <div className={nav_item}>
+                    </a>
+                    <a href="/#lokalizacja" className={nav_item}>
                         <img src={pinImage} alt="lokalizacja" />
                         <p>Lokalizacja</p>
-                    </div>
+                    </a>
                     <div onClick={props.click} className={nav_item}>
                         <img src={burgerMenu} alt="menu" />
                         <p>Menu</p>

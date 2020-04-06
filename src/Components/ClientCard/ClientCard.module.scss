@@ -91,3 +91,41 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .card_container {
+        margin-top: 25px;
+        width: 90vw;
+        height: 180px;
+
+
+        &::before {
+            top: -2px;
+            width: 25vw;
+            height: 10vw;
+        }
+    }
+
+    .card_content {
+        width: 80vw;
+        height: 150px;
+        border: 1px solid $secondary-color;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px 10px 20px;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .circle {
+        width: 140px;
+        height: 140px;
+        bottom: -40px;
+        left: -10px;
+
+        .number {
+            font-size: 30px;
+        }
+    }
+
+}

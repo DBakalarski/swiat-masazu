@@ -104,3 +104,31 @@
         margin-bottom: 20px;
     }
 }
+
+@media (max-width: 768px) {
+    .social {
+        margin-top: 30px;
+
+        >div {
+            flex-direction: column;
+        }
+    }
+
+    .booksy_container {
+        width: 100%;
+
+        .booksy_button {
+            margin-bottom: 10px;
+        }
+    }
+
+    .facebook_container {
+        width: 100%;
+        margin-top: 20px;
+
+        .additional_description {
+            font-size: 20px;
+        }
+    }
+
+}
