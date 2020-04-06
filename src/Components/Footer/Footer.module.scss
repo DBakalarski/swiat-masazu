@@ -19,10 +19,11 @@ footer {
     align-items: center;
     justify-content: flex-start;
     border: 1px solid $secondary-color;
-    width: 120px;
+    width: 132px;
     border-radius: 60px;
     position: relative;
     background-color: #fff;
+    transition: .3s;
 
     &::before {
         z-index: -1;
@@ -37,6 +38,16 @@ footer {
     p {
         color: $secondary-color;
         font-size: 17px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    &:hover {
+        background-color: $secondary-color;
+
+        p {
+            color: #fff;
+        }
     }
 }
 
@@ -101,7 +112,6 @@ footer {
     .sign {
         padding-top: 20px;
     }
-
 }
 
 @media (max-width: 992px) {

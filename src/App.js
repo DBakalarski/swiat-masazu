@@ -60,7 +60,9 @@ class App extends Component {
         <OfficeOffer />
         <PregnantOffer />
         <Location />
-        <Social />
+        <Social
+          scroll={this.state.scrollPosition}
+        />
         <Footer />
         {this.state.scrollPosition > 100 ? <Nav /> : null}
 

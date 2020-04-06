@@ -16,7 +16,7 @@ const Location = () => {
                         <div className={image_container}>
                             <img src={pinImage} alt="googlemaps" />
                         </div>
-                        <a href="https://www.google.com/maps/place/Pi%C4%85tkowska+181,+61-693+Pozna%C5%84/@52.4395412,16.9089483,17z/data=!3m1!4b1!4m5!3m4!1s0x4704435a1a2315f3:0x2a27fa51dc670bfb!8m2!3d52.439538!4d16.911137" className={button_text}>
+                        <a className={button_text} href="https://www.google.com/maps/place/Pi%C4%85tkowska+181,+61-693+Pozna%C5%84/@52.4395412,16.9089483,17z/data=!3m1!4b1!4m5!3m4!1s0x4704435a1a2315f3:0x2a27fa51dc670bfb!8m2!3d52.439538!4d16.911137" target="_blank" rel="noopener noreferrer" >
                             Zobacz w google maps
                         </a>
                     </div>

@@ -21,19 +21,23 @@ class Nav extends Component {
             <div className={this.state.animation ? `${fixedFooter} ${fixedFooterAniamtion} ` : fixedFooter}>
                 <div className="container">
                     <div className={fixedFooter_container}>
-                        <div className={facebok_container}>
-                            <img src={facebookImage} alt="facebook" />
-                            <p>facebook</p>
-                        </div>
-                        <div className={backOnTop}>
-                            <div className={arrow}>
-                                <img src={arrowImage} alt="strzałka" />
+                        <a href="https://www.facebook.com/kswiatmasazu/" target="_blank" rel="noopener noreferrer">
+                            <div className={facebok_container}>
+                                <img src={facebookImage} alt="facebook" />
+                                <p>facebook</p>
                             </div>
-                            <p>wracam na górę</p>
-                        </div>
+                        </a>
+                        <a href="/#header">
+                            <div className={backOnTop}>
+                                <div className={arrow}>
+                                    <img src={arrowImage} alt="strzałka" />
+                                </div>
+                                <p>wracam na górę</p>
+                            </div>
+                        </a>
                         <div className={contact}>
-                            <img src={mailImage} alt="mail" />
-                            <img src={phoneImage} alt="telefon" />
+                            <a href="mailto:klausiaswiatmasaz@gmail.com"> <img src={mailImage} alt="mail" /></a>
+                            <a href="tel:+48881288255"><img src={phoneImage} alt="telefon" /></a>
                             <p>kontakt</p>
                         </div>
                     </div>

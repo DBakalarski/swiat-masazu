@@ -16,7 +16,7 @@ const Header = (props) => {
     } else { headerOpen = <HeaderMenuOpen click={props.click} /> }
 
     return (
-        <section className={header}>
+        <section className={header} id="header">
             <div className="container">
                 <div className={header_content}>
 

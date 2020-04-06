@@ -16,7 +16,8 @@ const OfficeOffer = () => {
                             <p className={main_description}>Work<span>Site</span></p>
                             <p className={additional_description}>Masaż biurowy</p>
                         </div>
-                        <button className={button}>Uzyskaj indywidulaną ofertą</button>
+                        <a href="mailto:klausiaswiatmasaz@gmail.com"> <button className={button}>Uzyskaj indywidulaną ofertą</button></a>
+
                         <div className={email}>klausiaswiatmasaz@gmail.com</div>
                     </div>
                     <div className={book_container}>
