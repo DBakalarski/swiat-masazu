@@ -80,12 +80,13 @@
     .circle_number {
         margin: 25px 0;
         border: 1px solid $secondary-color;
-        width: 118px;
-        height: 118px;
+        width: 135px;
+        height: 135px;
         border-radius: 50%;
         @extend %center;
         font-size: 45px;
         font-family: $secondary-font;
+
     }
 
     .additional_description {

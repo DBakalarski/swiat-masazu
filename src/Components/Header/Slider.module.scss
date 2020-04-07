@@ -84,6 +84,7 @@
 }
 
 .arrow_left {
+    z-index: 3;
     left: 6vw;
 
     img {
@@ -93,6 +94,7 @@
 }
 
 .arrow_right {
+    z-index: 3;
     right: 6vw;
 
     img {

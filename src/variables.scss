@@ -8,6 +8,8 @@ $primary-font: 'Nunito Sans',
 sans-serif;
 $secondary-font: 'Merriweather',
 serif;
+$transition-time: .5s;
+$transform-translate-y: translateY(35%);
 
 %center {
     display: flex;

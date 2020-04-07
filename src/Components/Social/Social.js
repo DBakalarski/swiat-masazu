@@ -2,9 +2,17 @@ import React, { Component } from 'react';
 import styles from './Social.module.scss';
 import booksyButton from '../../images/booksy-button.png';
 import CountUp from 'react-countup';
-
+import VisibilitySensor from 'react-visibility-sensor';
 
 class Social extends Component {
+    state = {
+        didViewCountUp: false
+    };
+    onVisibilityChange = isVisible => {
+        if (isVisible) {
+            this.setState({ didViewCountUp: true });
+        }
+    }
 
     render() {
         const { social, booksy_container, facebook_container, booksy_button, title, separator, button, description, circle_number, additional_description } = styles;
@@ -25,10 +33,10 @@ class Social extends Component {
                     <div className={facebook_container}>
                         <p className={description}>Jest nas ponad</p>
                         <div className={circle_number}>
-                            <CountUp
-                                end={650}
-                                duration={5}
-                            />
+                            <VisibilitySensor onChange={this.onVisibilityChange} delayedCall>
+                                <CountUp delay={1} start={0} end={this.state.didViewCountUp ? 1008 : 0}
+                                    duration={3} />
+                            </VisibilitySensor>
                         </div>
                         <p className={additional_description}>Dziękujemy za zaufanie!</p>
                     </div>
