@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73d832e6cc292b80d461b6139fd67094",
+    "revision": "49de70e76efdcd0fa47716f4ffc12c49",
     "url": "/swiat-masazu/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/swiat-masazu/static/css/2.7c3fc33d.chunk.css"
   },
   {
-    "revision": "e160b8b5bb8875771b19",
+    "revision": "199f476453221db73387",
     "url": "/swiat-masazu/static/css/main.aaf11e86.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/swiat-masazu/static/js/2.6d65a31d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e160b8b5bb8875771b19",
-    "url": "/swiat-masazu/static/js/main.9ed3da08.chunk.js"
+    "revision": "199f476453221db73387",
+    "url": "/swiat-masazu/static/js/main.1955217d.chunk.js"
   },
   {
     "revision": "2b6af110fca5057b253d",

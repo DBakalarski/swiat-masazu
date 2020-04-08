@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/swiat-masazu/static/css/main.aaf11e86.chunk.css",
-    "main.js": "/swiat-masazu/static/js/main.9ed3da08.chunk.js",
-    "main.js.map": "/swiat-masazu/static/js/main.9ed3da08.chunk.js.map",
+    "main.js": "/swiat-masazu/static/js/main.1955217d.chunk.js",
+    "main.js.map": "/swiat-masazu/static/js/main.1955217d.chunk.js.map",
     "runtime-main.js": "/swiat-masazu/static/js/runtime-main.6a123364.js",
     "runtime-main.js.map": "/swiat-masazu/static/js/runtime-main.6a123364.js.map",
     "static/css/2.7c3fc33d.chunk.css": "/swiat-masazu/static/css/2.7c3fc33d.chunk.css",
     "static/js/2.6d65a31d.chunk.js": "/swiat-masazu/static/js/2.6d65a31d.chunk.js",
     "static/js/2.6d65a31d.chunk.js.map": "/swiat-masazu/static/js/2.6d65a31d.chunk.js.map",
     "index.html": "/swiat-masazu/index.html",
-    "precache-manifest.ada4d695061f0e6502cbbd66d7cb29dc.js": "/swiat-masazu/precache-manifest.ada4d695061f0e6502cbbd66d7cb29dc.js",
+    "precache-manifest.dcf8d71dfb892f50acd8fdde3662d44d.js": "/swiat-masazu/precache-manifest.dcf8d71dfb892f50acd8fdde3662d44d.js",
     "service-worker.js": "/swiat-masazu/service-worker.js",
     "static/css/2.7c3fc33d.chunk.css.map": "/swiat-masazu/static/css/2.7c3fc33d.chunk.css.map",
     "static/css/main.aaf11e86.chunk.css.map": "/swiat-masazu/static/css/main.aaf11e86.chunk.css.map",
@@ -40,6 +40,6 @@
     "static/css/2.7c3fc33d.chunk.css",
     "static/js/2.6d65a31d.chunk.js",
     "static/css/main.aaf11e86.chunk.css",
-    "static/js/main.9ed3da08.chunk.js"
+    "static/js/main.1955217d.chunk.js"
   ]
 }
