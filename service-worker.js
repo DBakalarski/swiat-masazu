@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/swiat-masazu/precache-manifest.eace853883eb08719b10bd66cf4354fa.js"
+  "/swiat-masazu/precache-manifest.ada4d695061f0e6502cbbd66d7cb29dc.js"
 );
 
 self.addEventListener('message', (event) => {
