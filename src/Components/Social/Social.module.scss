@@ -3,10 +3,18 @@
 .social {
     margin-top: 140px;
     padding-top: 10px;
+    opacity: 0;
+    transition: $transition-time;
+    transform: $transform-translate-y;
 
     >div {
         display: flex;
     }
+}
+
+.socialShow {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .separator {

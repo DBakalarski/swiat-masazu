@@ -3,6 +3,14 @@
 .pregnant {
     margin-top: 150px;
     padding-top: 10px;
+    opacity: 0;
+    transition: $transition-time;
+    transform: $transform-translate-y;
+}
+
+.pregnantShow {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .pregnant_container {

@@ -3,6 +3,14 @@
 .office {
     color: $primary-color;
     padding-top: 10px;
+    opacity: 0;
+    transition: $transition-time;
+    transform: $transform-translate-y;
+}
+
+.officeShow {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .office_container {

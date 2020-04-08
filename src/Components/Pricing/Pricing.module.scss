@@ -5,6 +5,14 @@
     color: $primary-color;
     padding-top: 10px;
     padding-bottom: 96px;
+    opacity: 0;
+    transition: $transition-time;
+    transform: $transform-translate-y;
+}
+
+.pricingShow {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .title {

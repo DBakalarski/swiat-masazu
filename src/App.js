@@ -9,7 +9,6 @@ import Location from './Components/Location/Location'
 import Social from './Components/Social/Social'
 import Footer from './Components/Footer/Footer'
 import Nav from './Components/Nav/Nav'
-import VisibilitySensor from 'react-visibility-sensor';
 
 class App extends Component {
   state = {
@@ -47,13 +46,7 @@ class App extends Component {
       document.body.style.overflow = "hidden";
     } else document.body.style.overflow = "auto"
   }
-  // onVisibilityChange = isVisible => {
-  //   if (isVisible) {
-  //     this.setState({
-  //       locationVisible: true
-  //     })
-  //   }
-  // }
+
   render() {
 
     return (

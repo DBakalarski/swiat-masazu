@@ -5,8 +5,8 @@
     padding-top: 10;
     color: $primary-color;
     opacity: 0;
-    transition: .5s;
-    transform: translateY(35%);
+    transition: $transition-time;
+    transform: $transform-translate-y;
 
     >div {
         display: flex;

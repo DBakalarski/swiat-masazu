@@ -19,7 +19,11 @@ class Location extends Component {
     render() {
         const { location, locationShow, location_container, header, separator, address, button, image_container, button_text } = styles;
         return (
-            <VisibilitySensor onChange={this.onVisibilityChange} delayedCall>
+            <VisibilitySensor
+                onChange={this.onVisibilityChange}
+                delayedCall
+                partialVisibility
+            >
                 <section id="lokalizacja" className={this.state.visible ? `${location} ${locationShow} ` : location}>
                     <div className="container">
                         <div className={location_container}>

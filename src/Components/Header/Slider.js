@@ -71,7 +71,7 @@ class Slider extends Component {
 
 
     componentDidMount() {
-        //this.intervalID = setInterval( this.changeSlides, 1000);
+        this.intervalID = setInterval(this.changeSlides, 3000);
 
     }
 
@@ -90,8 +90,8 @@ class Slider extends Component {
 
         return (
             <div
-                // onMouseEnter={this.clearIntervalFunction}
-                // onMouseLeave={this.startIntervalFunction}
+                onMouseEnter={this.clearIntervalFunction}
+                onMouseLeave={this.startIntervalFunction}
                 className={this.props.isMenuOpen ? `${slider} ${slider_menuOpen} ` : slider}
             >
                 <div className={circle_big}>
