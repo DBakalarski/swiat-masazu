@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/swiat-masazu/static/css/main.aaf11e86.chunk.css",
-    "main.js": "/swiat-masazu/static/js/main.1955217d.chunk.js",
-    "main.js.map": "/swiat-masazu/static/js/main.1955217d.chunk.js.map",
+    "main.css": "/swiat-masazu/static/css/main.fc33fbde.chunk.css",
+    "main.js": "/swiat-masazu/static/js/main.0ab9e8cb.chunk.js",
+    "main.js.map": "/swiat-masazu/static/js/main.0ab9e8cb.chunk.js.map",
     "runtime-main.js": "/swiat-masazu/static/js/runtime-main.6a123364.js",
     "runtime-main.js.map": "/swiat-masazu/static/js/runtime-main.6a123364.js.map",
     "static/css/2.7c3fc33d.chunk.css": "/swiat-masazu/static/css/2.7c3fc33d.chunk.css",
-    "static/js/2.6d65a31d.chunk.js": "/swiat-masazu/static/js/2.6d65a31d.chunk.js",
-    "static/js/2.6d65a31d.chunk.js.map": "/swiat-masazu/static/js/2.6d65a31d.chunk.js.map",
+    "static/js/2.7f9931e1.chunk.js": "/swiat-masazu/static/js/2.7f9931e1.chunk.js",
+    "static/js/2.7f9931e1.chunk.js.map": "/swiat-masazu/static/js/2.7f9931e1.chunk.js.map",
     "index.html": "/swiat-masazu/index.html",
-    "precache-manifest.dcf8d71dfb892f50acd8fdde3662d44d.js": "/swiat-masazu/precache-manifest.dcf8d71dfb892f50acd8fdde3662d44d.js",
+    "precache-manifest.3eff8273a0a7a45bfb74d694c422df21.js": "/swiat-masazu/precache-manifest.3eff8273a0a7a45bfb74d694c422df21.js",
     "service-worker.js": "/swiat-masazu/service-worker.js",
     "static/css/2.7c3fc33d.chunk.css.map": "/swiat-masazu/static/css/2.7c3fc33d.chunk.css.map",
-    "static/css/main.aaf11e86.chunk.css.map": "/swiat-masazu/static/css/main.aaf11e86.chunk.css.map",
-    "static/js/2.6d65a31d.chunk.js.LICENSE.txt": "/swiat-masazu/static/js/2.6d65a31d.chunk.js.LICENSE.txt",
+    "static/css/main.fc33fbde.chunk.css.map": "/swiat-masazu/static/css/main.fc33fbde.chunk.css.map",
+    "static/js/2.7f9931e1.chunk.js.LICENSE.txt": "/swiat-masazu/static/js/2.7f9931e1.chunk.js.LICENSE.txt",
     "static/media/arrow.svg": "/swiat-masazu/static/media/arrow.85083629.svg",
     "static/media/check.svg": "/swiat-masazu/static/media/check.6c300e28.svg",
     "static/media/close.svg": "/swiat-masazu/static/media/close.aef7a1f7.svg",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.6a123364.js",
     "static/css/2.7c3fc33d.chunk.css",
-    "static/js/2.6d65a31d.chunk.js",
-    "static/css/main.aaf11e86.chunk.css",
-    "static/js/main.1955217d.chunk.js"
+    "static/js/2.7f9931e1.chunk.js",
+    "static/css/main.fc33fbde.chunk.css",
+    "static/js/main.0ab9e8cb.chunk.js"
   ]
 }
