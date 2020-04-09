@@ -16,18 +16,18 @@ class Nav extends Component {
         }, 100)
     }
     render() {
-        const { fixedFooter, fixedFooterAniamtion, fixedFooter_container, facebok_container, backOnTop, contact, arrow } = styles
+        const { fixedFooter, fixedFooterAniamtion, fixedFooter_container, facebook_link, facebok_container, backOnTop_link, backOnTop, contact, arrow } = styles
         return (
             <div className={this.state.animation ? `${fixedFooter} ${fixedFooterAniamtion} ` : fixedFooter}>
                 <div className="container">
                     <div className={fixedFooter_container}>
-                        <a href="https://www.facebook.com/kswiatmasazu/" target="_blank" rel="noopener noreferrer">
+                        <a className={facebook_link} href="https://www.facebook.com/kswiatmasazu/" target="_blank" rel="noopener noreferrer">
                             <div className={facebok_container}>
                                 <img src={facebookImage} alt="facebook" />
                                 <p>facebook</p>
                             </div>
                         </a>
-                        <a href="#header">
+                        <a className={backOnTop_link} href="#header">
                             <div className={backOnTop}>
                                 <div className={arrow}>
                                     <img src={arrowImage} alt="strzałka" />

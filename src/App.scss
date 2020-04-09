@@ -23,10 +23,19 @@ body {
     font-family: $primary-font
 }
 
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    //overflow-x: hidden;
+    // opacity: 1;
+    // transform: translateY(0);
+}
+
+.hide {
+    opacity: 0;
+    transition: $transition-time;
+    transform: $transform-translate-y;
 }
 
 /** simpe bar over write*/

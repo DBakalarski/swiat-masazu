@@ -56,13 +56,22 @@ class App extends Component {
           isMenuOpen={this.state.menuOpen}
           width={this.state.width}
         />
-        <Pricing />
-        <OfficeOffer />
-        <PregnantOffer />
-        <Location />
+        <Pricing
+          width={this.state.width}
+        />
+        <OfficeOffer
+          width={this.state.width}
+        />
+        <PregnantOffer
+          width={this.state.width}
+        />
+        <Location
+          width={this.state.width}
+        />
 
         <Social
           scroll={this.state.scrollPosition}
+          width={this.state.width}
         />
         <Footer />
         {this.state.scrollPosition > 100 ? <Nav /> : null}

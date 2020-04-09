@@ -2,7 +2,10 @@
 
 .office {
     color: $primary-color;
-    padding-top: 10px;
+    padding-top: 15px;
+}
+
+.officeHide {
     opacity: 0;
     transition: $transition-time;
     transform: $transform-translate-y;

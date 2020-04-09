@@ -1,17 +1,20 @@
 @import '../../variables.scss';
 
 .location {
-    margin-top: 50px;
-    padding-top: 10;
+    margin-top: 30px;
+    padding-top: 15px;
     color: $primary-color;
-    opacity: 0;
-    transition: $transition-time;
-    transform: $transform-translate-y;
 
-    >div {
+    >div>div {
         display: flex;
         justify-content: space-between;
     }
+}
+
+.locationHide {
+    opacity: 0;
+    transition: $transition-time;
+    transform: $transform-translate-y;
 }
 
 .locationShow {
@@ -88,7 +91,7 @@
         padding-bottom: 120px;
         overflow-y: hidden;
 
-        >div {
+        >div>div {
             flex-direction: column;
         }
     }

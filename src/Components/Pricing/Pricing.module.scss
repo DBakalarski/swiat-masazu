@@ -3,8 +3,12 @@
 .pricing {
     background-color: #fff;
     color: $primary-color;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 96px;
+
+}
+
+.pricingHide {
     opacity: 0;
     transition: $transition-time;
     transform: $transform-translate-y;
@@ -50,6 +54,11 @@
     margin: auto;
 }
 
+.showText {
+    color: #fff;
+    cursor: pointer;
+}
+
 @media (min-width: 1600px) {
     .price_items {
         flex-grow: 1;
@@ -58,7 +67,7 @@
 
 @media (max-width: 992px) {
     .pricing {
-        margin-top: 25px;
+        padding-top: 25px;
         width: 100vw;
         padding: 0;
     }

@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.pricingModal {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    outline: dashed;
+    height: 80vh;
+    background-color: gray;
+    padding: 50px;
+    width: 80vw;
+
+}
+
+.pricingModalShow {
+    display: block;
+}
+
+.pricingModalContainer {
+    height: 100%;
+    overflow-y: hidden;
+    z-index: 999999;
+}
