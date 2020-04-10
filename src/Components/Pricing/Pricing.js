@@ -37,6 +37,7 @@ class Pricing extends Component {
                 <section id="cennik-uslug" className={pricing}>
                     <PricingModal
                         visible={this.state.modalVisible}
+                        click={this.handleModalVisibity}
                     />
                     <div className={this.state.visible ? `${pricingHide} ${pricingShow} ` : pricingHide}>
                         <div className="container">

@@ -16,11 +16,11 @@ const HeaderMenuClose = (props) => {
                     <img src={logoImage} alt="logo" />
                 </div>
                 <div className={nav}>
-                    <a href="/#rezerwacja" className={nav_item}>
+                    <a href="#rezerwacja" className={nav_item}>
                         <img src={checkImage} alt="rezerwacja" />
                         <p>Rezerwacja</p>
                     </a>
-                    <a href="/#lokalizacja" className={nav_item}>
+                    <a href="#lokalizacja" className={nav_item}>
                         <img src={pinImage} alt="lokalizacja" />
                         <p>Lokalizacja</p>
                     </a>
