@@ -6,9 +6,21 @@ import SimpleBar from 'simplebar-react';
 import 'simplebar/dist/simplebar.min.css';
 
 
+
 class PricingModal extends Component {
     state = {
-        canClose: true
+        canClose: true,
+        data: []
+    }
+
+    componentDidMount() {
+        fetch('swiat-masazu/data/dataPrice.json')
+            .then(response => response.json())
+            .then(data => {
+                this.setState({
+                    data: data.data
+                })
+            })
     }
 
     handleChangeClose = (value) => {
@@ -20,12 +32,34 @@ class PricingModal extends Component {
             this.setState({
                 canClose: false
             })
-            console.log("false")
         }
     }
 
+
+
     render() {
-        const { pricingModal, pricingModalContent, pricingModalShow, pricingModalContainer, closeModal, categoryName } = styles
+        const { pricingModal, pricingModalContent, pricingModalShow, pricingModalContainer, mobileContainer, closeModal, categoryName, categoryList } = styles
+        const data = [...this.state.data]
+        const services = data.map(serivice => {
+            return (
+                <div
+                    className={categoryList}
+                    key={serivice.name}
+                >
+                    <p className={categoryName}>{serivice.name}</p>
+                    {serivice.values.map(item => {
+                        return (
+                            <PriceItem
+                                content={item.content}
+                                price={item.price}
+                                key={`${item.content}${item.price}`}
+                            />
+                        )
+                    })}
+                </div>
+            )
+        })
+
         return (
             <div
                 className={this.props.visible ? `${pricingModal} ${pricingModalShow} ` : pricingModal}
@@ -37,11 +71,14 @@ class PricingModal extends Component {
                         onMouseEnter={() => this.handleChangeClose()}
                         onMouseLeave={() => this.handleChangeClose(true)}
                     >
-                        <div className={closeModal} onClick={this.props.click}>
-                            <img src={closeImage} alt="" />
-                        </div>
-                        <SimpleBar style={{ maxHeight: "100%" }}>
-                            <p className={categoryName}>Dla zdrowia</p>
+                        <div>
+                            <div className={closeModal} onClick={this.props.click}>
+                                <img src={closeImage} alt="" />
+                            </div>
+                            {this.props.width > 768 ? <SimpleBar className="modalScroll" style={{ maxHeight: "100%" }}>
+                                {services} </SimpleBar> : <div className={mobileContainer}>{services}</div>}
+
+                            {/* <p className={categoryName}>Dla zdrowia</p>
                             <PriceItem
                                 content="Masaż klasyczny"
                                 price="60zł"
@@ -125,16 +162,16 @@ class PricingModal extends Component {
                                 time="45"
                             />
                             <PriceItem
-                                content="Masaż tkanek Głębokich"
+                                content="Masaż tkanek głębokich"
                                 price="85zł"
                             />
                             <PriceItem
-                                content="Masaż tkanek Głębokich"
+                                content="Masaż tkanek głębokich"
                                 price="100zł"
                                 time="60"
                             />
                             <PriceItem
-                                content="Masaż tkanek Głębokich"
+                                content="Masaż tkanek głębokich"
                                 price="125zł"
                                 time="90"
                             />
@@ -144,7 +181,7 @@ class PricingModal extends Component {
                                 price="60zł"
                             />
                             <PriceItem
-                                content="Masaż sportowy"
+                                content="-------"
                                 price="90zł"
                                 time="70"
                             />
@@ -170,8 +207,9 @@ class PricingModal extends Component {
                             <PriceItem
                                 content="masaż klasyczny całego ciała"
                                 price="90zł"
-                            />
-                        </SimpleBar>
+                            /> */}
+
+                        </div>
                     </div>
                 </div>
             </div>

@@ -3,13 +3,11 @@ import styles from './Pricing.module.scss';
 import PriceItem from './PriceItem';
 import massage from '../../images/massage.png'
 import VisibilitySensor from 'react-visibility-sensor';
-import PricingModal from './PricingModal'
 
 
 class Pricing extends Component {
     state = {
-        visible: false,
-        modalVisible: false
+        visible: false
     }
     onVisibilityChange = isVisible => {
         if (isVisible) {
@@ -19,11 +17,7 @@ class Pricing extends Component {
         }
     }
 
-    handleModalVisibity = () => {
-        this.setState({
-            modalVisible: !this.state.modalVisible
-        })
-    }
+
     render() {
         const { pricing, pricingShow, pricingHide, price_content, title, separator, price_list, massage_image, price_items, showText } = styles
         return (
@@ -35,10 +29,6 @@ class Pricing extends Component {
             >
 
                 <section id="cennik-uslug" className={pricing}>
-                    <PricingModal
-                        visible={this.state.modalVisible}
-                        click={this.handleModalVisibity}
-                    />
                     <div className={this.state.visible ? `${pricingHide} ${pricingShow} ` : pricingHide}>
                         <div className="container">
                             <div className={price_content}>
@@ -70,9 +60,10 @@ class Pricing extends Component {
                                         />
                                         <p
                                             className={showText}
-                                            onClick={this.handleModalVisibity}
+                                            onClick={this.props.handleModalVisibity}
                                         >
-                                            pokaż cały cennik</p>
+                                            pokaż cały cennik
+                                        </p>
                                     </div>
 
                                     <div className={massage_image}>

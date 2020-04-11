@@ -25,7 +25,14 @@
     background-color: $primary-color;
     color: $secondary-color;
     padding: 50px;
-    width: 80vw;
+    width: 70vw;
+    justify-content: center;
+    display: flex;
+
+    >div {
+        height: 100%;
+        width: 80%;
+    }
 }
 
 .pricingModalContent {
@@ -40,6 +47,7 @@
 .closeModal {
     position: absolute;
     color: $secondary-color;
+    background-color: $primary-color;
     right: 0;
     top: 0;
     padding-top: 10px;
@@ -49,5 +57,27 @@
 
 .categoryName {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.categoryList {
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .pricingModalContainer {
+        height: 100vh;
+        padding: 15px;
+        width: 100vw;
+    }
+
+    .mobileContainer {
+        max-height: 100%;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+            display: none
+        }
+    }
+
 }

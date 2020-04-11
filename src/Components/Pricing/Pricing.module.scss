@@ -55,8 +55,14 @@
 }
 
 .showText {
-    color: #fff;
+    color: $secondary-color;
     cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+
+    &:hover {
+        font-weight: bold;
+    }
 }
 
 @media (min-width: 1600px) {

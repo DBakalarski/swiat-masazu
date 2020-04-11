@@ -58,6 +58,23 @@
     padding-top: 50px;
 }
 
+@media (min-width: 1600px) {
+    .main_description h1 {
+        font-size: 45px;
+    }
+
+    .additional_description h2 {
+        font-size: 40px;
+        max-width: unset;
+        padding-right: 10px;
+    }
+
+    .sign img {
+        width: 300px;
+        padding-top: 110px;
+    }
+}
+
 @media (max-width: 992px) {
     .header_menu {
         width: auto;

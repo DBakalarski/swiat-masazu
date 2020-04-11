@@ -44,18 +44,24 @@ class OfficeOffer extends Component {
                                     <div className={circle}>
                                         <div className={circle_time}>15</div>
                                         <div className={circle_minutes}>minut</div>
-                                        <button className={cricle_button}>Zamawiam</button>
+                                        <a href="mailto:klausiaswiatmasaz@gmail.com">
+                                            <button className={cricle_button}>Zamawiam</button>
+                                        </a>
                                     </div>
                                     <div className={circle_top}>
                                         <div className={circle_time}>20</div>
                                         <div className={circle_minutes}>minut</div>
-                                        <button className={cricle_button}>Zamawiam</button>
+                                        <a href="mailto:klausiaswiatmasaz@gmail.com">
+                                            <button className={cricle_button}>Zamawiam</button>
+                                        </a>
                                     </div>
 
                                     <div className={circle}>
                                         <div className={circle_time}>30</div>
                                         <div className={circle_minutes}>minut</div>
-                                        <button className={cricle_button}>Zamawiam</button>
+                                        <a href="mailto:klausiaswiatmasaz@gmail.com">
+                                            <button className={cricle_button}>Zamawiam</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

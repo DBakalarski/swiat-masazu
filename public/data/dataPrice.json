@@ -1,0 +1,57 @@
+ {
+     "data": [{
+             "name": "Dla zdrowia",
+             "values": [{
+                     "content": "Drenaż limfatyczny kończyny dolne",
+                     "price": "72zł",
+                     "time": "20"
+                 },
+                 {
+                     "content": "Drenaż limfatyczny kończyny dolne",
+                     "price": "73zł",
+                     "time": "20"
+                 },
+                 {
+                     "content": "ZMasaż klasycznyZ",
+                     "price": "74zł",
+                     "time": "20"
+                 },
+                 {
+                     "content": "ZMasaż klasycznyZ",
+                     "price": "75zł",
+                     "time": "20"
+                 }
+             ]
+         },
+
+         {
+             "name": "Dla sportu",
+             "values": [{
+                     "content": "SMasaż klasycznyS",
+                     "price": "70zł",
+                     "time": "20"
+
+                 },
+                 {
+                     "content": "SMasaż klasycznyS",
+                     "price": "71zł",
+                     "time": "20"
+
+                 },
+                 {
+                     "content": "SMasaż klasycznyS",
+                     "price": "72zł",
+                     "time": "20"
+
+                 },
+                 {
+                     "content": "SMasaż klasycznyS",
+                     "price": "73zł",
+                     "time": "20"
+
+                 }
+
+             ]
+         }
+     ]
+ }

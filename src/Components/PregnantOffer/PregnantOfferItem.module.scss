@@ -76,6 +76,14 @@
 @media (max-width: 992px) {
     .price_item {
         width: 100%;
+
+        &:hover {
+            color: $primary-color;
+
+            .price_title:before {
+                background-color: $primary-color;
+            }
+        }
     }
 
     .description {

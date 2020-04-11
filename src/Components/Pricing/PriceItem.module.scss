@@ -75,10 +75,17 @@
 @media (max-width: 992px) {
     .price_item {
         width: 100%;
+
+        &:hover {
+            color: #fff;
+
+            .price_title:before {
+                background-color: #fff;
+            }
+        }
     }
 
     .description {
-        flex-basis: 50%;
         justify-content: space-around;
     }
 }

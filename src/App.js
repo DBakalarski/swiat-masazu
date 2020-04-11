@@ -9,12 +9,15 @@ import Location from './Components/Location/Location'
 import Social from './Components/Social/Social'
 import Footer from './Components/Footer/Footer'
 import Nav from './Components/Nav/Nav'
+import PricingModal from './Components/Pricing/PricingModal'
 
 class App extends Component {
   state = {
     menuOpen: false,
     width: window.innerWidth,
-    scrollPosition: 0
+    scrollPosition: 0,
+    modalVisible: false
+
   }
 
   changeMenuState = () => {
@@ -33,6 +36,14 @@ class App extends Component {
     this.setState({
       width: window.innerWidth,
     })
+  }
+
+  handleModalVisibity = () => {
+    this.setState({
+      modalVisible: !this.state.modalVisible,
+      menuOpen: !this.state.menuOpen
+    })
+
   }
 
   componentDidMount() {
@@ -58,7 +69,20 @@ class App extends Component {
         />
         <Pricing
           width={this.state.width}
+          visible={this.state.visible}
+          handleModalVisibity={this.handleModalVisibity}
+          modalClick={this.changeMenuState}
         />
+        {this.state.modalVisible ?
+          <PricingModal
+            visible={this.state.modalVisible}
+            click={this.handleModalVisibity}
+            width={this.state.width}
+          />
+          :
+          null
+        }
+
         <OfficeOffer
           width={this.state.width}
         />
