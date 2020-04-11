@@ -54,15 +54,17 @@ class PregnantOffer extends Component {
                                     <div className={pricing_content}>
                                         <PregnantOfferItem
                                             content="masaż kobiet ciężarnych"
-                                            price="70zł"
+                                            price="60zł"
                                         />
                                         <PregnantOfferItem
                                             content="masaż kobiet ciężarnych"
-                                            price="70zł"
+                                            price="90zł"
+                                            time="60"
                                         />
                                         <PregnantOfferItem
                                             content="terapia opracowania blizny"
                                             price="70zł"
+                                            time="40"
                                         />
                                     </div>
                                 </div>

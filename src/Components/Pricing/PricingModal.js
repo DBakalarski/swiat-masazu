@@ -52,6 +52,7 @@ class PricingModal extends Component {
                             <PriceItem
                                 content={item.content}
                                 price={item.price}
+                                time={item.time}
                                 key={`${item.content}${item.price}`}
                             />
                         )
@@ -100,12 +101,12 @@ class PricingModal extends Component {
                             />
                             <PriceItem
                                 content="Drenaż limfatyczny kończyny górne"
-                                price="150zł"
+                                price="70zł"
                                 time="60"
                             />
                             <PriceItem
                                 content="Masaż Shantala - kurs dla rodziców"
-                                price="80zł"
+                                price="150zł"
                                 time="60"
                             />
                             <PriceItem

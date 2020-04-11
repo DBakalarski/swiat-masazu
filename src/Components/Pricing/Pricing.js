@@ -39,24 +39,25 @@ class Pricing extends Component {
                                 <div className={price_list}>
                                     <div className={price_items}>
                                         <PriceItem
-                                            content="masaż klasyczny całego ciała"
-                                            price="70zł"
+                                            content="Masaż klasyczny"
+                                            price="60zł"
+                                            time="30"
                                         />
                                         <PriceItem
-                                            content="masaż klasyczny ciała | częściowy"
-                                            price="50zł"
+                                            content="Masaż kobiet ciężarnych"
+                                            price="60zł"
                                         />
                                         <PriceItem
-                                            content="masaż gorącymi kamieniami"
-                                            price="120zł"
+                                            content="Masaż bańką chińską"
+                                            price="45zł"
                                         />
                                         <PriceItem
-                                            content="masaż świecą"
-                                            price="80zł"
+                                            content="Masaż sportowy"
+                                            price="60zł"
                                         />
                                         <PriceItem
-                                            content="masaż klasyczny całego ciała"
-                                            price="90zł"
+                                            content="Masaż aromatyczną świecą"
+                                            price="65zł"
                                         />
                                         <p
                                             className={showText}
