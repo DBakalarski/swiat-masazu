@@ -39,14 +39,14 @@
              ]
          },
          {
-             "name": "Dla ciężarnych",
+             "name": "Dla kobiet w ciąży",
              "values": [{
-                     "content": "Masaż kobiet ciężarnych",
+                     "content": "Masaż dla kobiet w ciąży",
                      "price": "60zł"
 
                  },
                  {
-                     "content": "Masaż kobiet ciężarnych",
+                     "content": "Masaż dla kobiet w ciąży",
                      "price": "90zł",
                      "time": "60"
                  },

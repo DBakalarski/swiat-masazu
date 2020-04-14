@@ -18,7 +18,7 @@
         content: '';
         position: absolute;
         top: 0;
-        bottom: 0;
+        bottom: -9999px;
         left: -999999px;
         background-color: #fff;
         right: 50%;
@@ -63,17 +63,12 @@
     font-family: $secondary-font;
     color: $secondary-color;
     font-size: 27px;
-    //padding-top: 37px;
     position: absolute;
     bottom: 4vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-}
-
-.title {
-    min-width: 200px;
 }
 
 .arrow_left,

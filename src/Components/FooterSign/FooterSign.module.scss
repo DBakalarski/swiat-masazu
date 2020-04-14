@@ -1,0 +1,15 @@
+.footerSign {
+    background-color: #2f3438;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        padding-left: 3px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

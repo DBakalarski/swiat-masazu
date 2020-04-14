@@ -10,13 +10,15 @@ import Social from './Components/Social/Social'
 import Footer from './Components/Footer/Footer'
 import Nav from './Components/Nav/Nav'
 import PricingModal from './Components/Pricing/PricingModal'
+import FooterSign from './Components/FooterSign/FooterSign'
 
 class App extends Component {
   state = {
     menuOpen: false,
     width: window.innerWidth,
     scrollPosition: 0,
-    modalVisible: false
+    modalVisible: false,
+    offsetTopFooter: null,
 
   }
 
@@ -47,9 +49,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-
     window.addEventListener('scroll', this.changeScrollPosition);
     window.addEventListener('resize', this.changeWindowSize)
+    this.setState({
+      offsetTopFooter: document.querySelector('footer').offsetTop
+    })
   }
 
   componentDidUpdate() {
@@ -57,6 +61,7 @@ class App extends Component {
       document.body.style.overflow = "hidden";
     } else document.body.style.overflow = "auto"
   }
+
 
   render() {
 
@@ -98,8 +103,8 @@ class App extends Component {
           width={this.state.width}
         />
         <Footer />
-        {this.state.scrollPosition > 100 ? <Nav /> : null}
-
+        {this.state.scrollPosition > 200 && this.state.scrollPosition < this.state.offsetTopFooter ? <Nav /> : null}
+        <FooterSign />
       </React.Fragment>
     )
 

@@ -12,7 +12,7 @@ import pinImage from '../../images/pin-blue.svg';
 const Footer = () => {
     const { footer_container, footer, button, footer_text, footer_contact, facebook, loaction, phone, mail, footer_short, title, separator, footer_image, photo, sign } = styles;
     return (
-        <footer >
+        <footer>
             <div className="container">
                 <div className={footer}>
                     <a href="#header">
@@ -53,9 +53,9 @@ const Footer = () => {
                                 <div className={title}>
                                     W skrócie <span className={separator}></span>
                                 </div>
-                                <a href="/#cennik-uslug"><p>Cennik usług</p></a>
-                                <a href="/#oferta-dla-firm"><p>WorkSite</p></a>
-                                <a href="#/masaz-ciaza"><p>Kobieta w ciązy</p></a>
+                                <a href="#cennik-uslug"><p>Cennik usług</p></a>
+                                <a href="#oferta-dla-firm"><p>WorkSite</p></a>
+                                <a href="#masaz-ciaza"><p>Kobieta w ciązy</p></a>
                             </div>
                         </div>
                         <div className={footer_image}>

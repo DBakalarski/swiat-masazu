@@ -15,6 +15,7 @@ class Nav extends Component {
             this.setState({ animation: true })
         }, 100)
     }
+
     render() {
         const { fixedFooter, fixedFooterAniamtion, fixedFooter_container, facebook_link, facebok_container, backOnTop_link, backOnTop, contact, arrow } = styles
         return (

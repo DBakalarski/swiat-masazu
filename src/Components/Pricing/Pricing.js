@@ -44,7 +44,7 @@ class Pricing extends Component {
                                             time="30"
                                         />
                                         <PriceItem
-                                            content="Masaż kobiet ciężarnych"
+                                            content="Masaż kobiet w ciąży"
                                             price="60zł"
                                         />
                                         <PriceItem

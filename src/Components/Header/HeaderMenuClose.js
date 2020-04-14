@@ -36,7 +36,7 @@ const HeaderMenuClose = (props) => {
                     <span className={separator}></span>
                 </div>
                 <div className={additional_description}>
-                    <h2>Specjalizuję się w masażach klasycznych i leczniczych.</h2>
+                    <h2>Specjalizuję się w masażu leczniczym, klasycznym i terapii blizn</h2>
                 </div>
                 <div className={sign}>
                     <img src={signImage} alt="podpis" />

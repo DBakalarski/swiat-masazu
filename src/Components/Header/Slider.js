@@ -9,7 +9,7 @@ import mplacow from '../../images/slider/masaz-plecy_2.svg';
 
 const slides = [
     {
-        title: 'Masaże kalsyczne',
+        title: 'Masaż klasyczny',
         img: mplecy
     },
     {
@@ -85,7 +85,6 @@ class Slider extends Component {
 
     render() {
         console.log(this.intervalID)
-        //const nslides = [...slides]
         const { slider, circle_big, circle_small, slider_title, arrow_left, arrow_right, title, slider_menuOpen } = styles;
 
         return (
