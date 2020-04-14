@@ -14,7 +14,7 @@ class PricingModal extends Component {
     }
 
     componentDidMount() {
-        fetch('/swiat-masazu/data/dataPrice.json')
+        fetch('/data/dataPrice.json')
             .then(response => response.json())
             .then(data => {
                 this.setState({
