@@ -15,7 +15,7 @@ const Footer = () => {
         <footer>
             <div className="container">
                 <div className={footer}>
-                    <a href="#header">
+                    <a href="#strona-glowna">
                         <div className={button}>
                             <img src={arrowImage} alt="strzałka" />
                             <p>Na górę</p>
