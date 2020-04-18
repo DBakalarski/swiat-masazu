@@ -84,7 +84,6 @@ class Slider extends Component {
     }
 
     render() {
-        console.log(this.intervalID)
         const { slider, circle_big, circle_small, slider_title, arrow_left, arrow_right, title, slider_menuOpen } = styles;
 
         return (

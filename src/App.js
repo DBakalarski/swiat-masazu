@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CookieConsent from "react-cookie-consent";
 
 import './App.scss';
 import Header from './Components/Header/Header'
@@ -52,7 +53,7 @@ class App extends Component {
     window.addEventListener('scroll', this.changeScrollPosition);
     window.addEventListener('resize', this.changeWindowSize)
     this.setState({
-      offsetTopFooter: document.querySelector('footer').offsetTop
+      offsetTopFooter: document.querySelector('footer').offsetTop - document.querySelector('footer').offsetHeight
     })
   }
 
@@ -105,6 +106,17 @@ class App extends Component {
         <Footer />
         {this.state.scrollPosition > 200 && this.state.scrollPosition < this.state.offsetTopFooter ? <Nav /> : null}
         <FooterSign />
+        <CookieConsent
+          location="bottom"
+          buttonText="Rozumiem"
+          cookieName="myAwesomeCookieName2"
+          style={{ background: "#2B373B" }}
+          buttonStyle={{ backgroundColor: "#B69969", color: "#4e503b", fontSize: "13px" }}
+          contentStyle={{ flex: "1 0 0" }}
+        >
+          Ta strona używa cookie
+          <span style={{ display: "block", "padding-left": "5px", "font-size": "11px", "color": "#B69969" }}> <a href="https://wszystkoociasteczkach.pl/po-co-sa-ciasteczka" target="_blank" rel="noopener noreferrer">więcej informacji </a> </span> {" "}
+        </CookieConsent>
       </React.Fragment>
     )
 

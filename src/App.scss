@@ -9,6 +9,7 @@
 
 html {
     scroll-behavior: smooth;
+    touch-action: manipulation;
 }
 
 a {
@@ -20,7 +21,7 @@ a {
 
 body {
     color: $text-color;
-    font-family: $primary-font
+    font-family: $primary-font;
 }
 
 
@@ -70,6 +71,11 @@ body {
         width: 100vw;
         padding: 0 30px;
         overflow-x: hidden;
+    }
+
+    .cookieConsent button {
+        margin-top: 0 !important;
+        margin-left: 0 !important;
     }
 }
 

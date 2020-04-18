@@ -36,10 +36,10 @@ class PregnantOffer extends Component {
                                         <div className={header}>Masaż kobiet w ciąży i po porodzie <span className={separator}></span></div>
                                         <div className={main_description}>
                                             <p>Masaż kobiet w trakcie ciąży i zaraz po porodzie nie tylko relaksuje oraz przynosi ulgę, ale również działa przeciwobrzękowo. Masaż brzucha i ud zapobiega rozstępom. </p>
-                                            <p>Masaż kobiet w ciąży wykonywany jest pomiędzy 3-8 miesiącu ciąży. </p>
-                                            <p>Obejmuje takie partie ciała jak: barki, kark, szyja, kręgosłup (szczególnie odcinek lędźwiowy,krzyżowy), brzuch, kończyny dolne i górne. </p>
-                                            <p>Pamiętajcie, że po porodzie cesarskiego cięcia trzeba mobilizować bliznę. </p>
-                                            <p>Codzienna pielęgnacja i masaż sprawia, że blizna nie będzie sztywna oraz nie pojawiają się problemy z bólem kręgosłupa.</p>
+                                            <p>Masaż kobiet w ciąży wykonywany jest pomiędzy 3 a 8 miesiącem ciąży. </p>
+                                            <p>Obejmuje takie partie ciała jak: barki, kark, szyja, kręgosłup (szczególnie odcinek lędźwiowy i krzyżowy), brzuch, kończyny dolne i górne. </p>
+                                            <p>Pamiętajcie, że po cesarskim cięciu trzeba mobilizować bliznę. </p>
+                                            <p>Codzienna pielęgnacja i masaż sprawią, że blizna nie będzie sztywna oraz nie pojawiają się problemy z bólem kręgosłupa.</p>
 
                                         </div>
                                         <span className={additional_separator}></span>

@@ -55,7 +55,7 @@ const Footer = () => {
                                 </div>
                                 <a href="#cennik-uslug"><p>Cennik usług</p></a>
                                 <a href="#oferta-dla-firm"><p>WorkSite</p></a>
-                                <a href="#masaz-ciaza"><p>Kobieta w ciązy</p></a>
+                                <a href="#masaz-ciaza"><p>Kobieta w ciąży</p></a>
                             </div>
                         </div>
                         <div className={footer_image}>
