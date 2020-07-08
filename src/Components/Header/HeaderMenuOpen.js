@@ -40,7 +40,7 @@ const HeaderMenuOpen = (props) => {
                             <div className={number}>2</div>
                             <div className={section_link}>
                                 <div className={section_name}>Oferta dla firm</div>
-                                <div className={section_desc}>Szeroka oferta zabiegów</div>
+                                <div className={section_desc}>Zadbaj o swoich pracowników</div>
                                 <span className={section_separator}></span>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const HeaderMenuOpen = (props) => {
                         <div className={nav_item}>
                             <div className={number}>3</div>
                             <div className={section_link}>
-                                <div className={section_name}>Masaż kobiet ciężarnych</div>
+                                <div className={section_name}>Masaż kobiet w ciąży</div>
                                 <div className={section_desc}>Szeroka oferta zabiegów</div>
                                 <span className={section_separator}></span>
                             </div>
@@ -60,7 +60,6 @@ const HeaderMenuOpen = (props) => {
                             <div className={number}>4</div>
                             <div className={section_link}>
                                 <div className={section_name}>Lokalizacja</div>
-                                <div className={section_desc}>Szeroka oferta zabiegów</div>
                                 <span className={section_separator}></span>
                             </div>
                         </div>
@@ -70,7 +69,7 @@ const HeaderMenuOpen = (props) => {
                             <div className={number}>5</div>
                             <div className={section_link}>
                                 <div className={section_name}>Zarezerwuj wizytę</div>
-                                <div className={section_desc}>Szeroka oferta zabiegów</div>
+                                <div className={section_desc}>Rezerwacja przez booksy lub telefoniczna</div>
                                 <span className={section_separator}></span>
                             </div>
                         </div>
@@ -83,7 +82,7 @@ const HeaderMenuOpen = (props) => {
                     <p>Uzyskaj indywidualną ofertę</p>
                 </div>
                 <div className={mail}>
-                    <p>klausiaswiatmasaz@gmail.com</p>
+                    <p>klaudiaswiatmasazu@gmail.com</p>
                     <span className={separator}></span>
                 </div>
             </div>

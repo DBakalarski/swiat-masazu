@@ -28,7 +28,7 @@ class Nav extends Component {
                                 <p>facebook</p>
                             </div>
                         </a>
-                        <a className={backOnTop_link} href="#header">
+                        <a className={backOnTop_link} href="#strona-glowna">
                             <div className={backOnTop}>
                                 <div className={arrow}>
                                     <img src={arrowImage} alt="strzałka" />
