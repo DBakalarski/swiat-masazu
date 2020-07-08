@@ -24,11 +24,51 @@
                  {
                      "content": "Drenaż limfatyczny kończyny górne",
                      "price": "70zł",
-                     "time": "60"
+                     "time": "45"
                  },
                  {
                      "content": "Masaż Shantala - kurs dla rodziców",
                      "price": "150zł",
+                     "time": "60"
+                 },
+                 {
+                     "content": "Masaż leczniczy/terapia manualna",
+                     "price": "130zł",
+                     "time": "60"
+                 },
+                 {
+                     "content": "Terapeutyczny masaż relaksacyjny",
+                     "price": "110zł",
+                     "time": "40"
+                 },
+                 {
+                     "content": "Terapeutyczny masaż relaksacyjny",
+                     "price": "130zł",
+                     "time": "60"
+                 },
+                 {
+                     "content": "Terapeutyczny masaż relaksacyjny",
+                     "price": "160zł",
+                     "time": "90"
+                 },
+                 {
+                     "content": "Terapia wisceralna (masaż narządów wewnętrznych",
+                     "price": "110zł",
+                     "time": "45"
+                 },
+                 {
+                     "content": "Terapia wisceralna (masaż narządów wewnętrznych",
+                     "price": "130zł",
+                     "time": "60"
+                 },
+                 {
+                     "content": "Terapia wisceralna (masaż narządów wewnętrznych",
+                     "price": "160zł",
+                     "time": "90"
+                 },
+                 {
+                     "content": "Ból stawu barkowego",
+                     "price": "120zł",
                      "time": "60"
                  },
                  {
@@ -43,7 +83,6 @@
              "values": [{
                      "content": "Masaż dla kobiet w ciąży",
                      "price": "60zł"
-
                  },
                  {
                      "content": "Masaż dla kobiet w ciąży",
@@ -54,38 +93,30 @@
                      "content": "Terapia bólów głowy/zniesienie napięć karku",
                      "price": "100zł",
                      "time": "60"
-
                  }
-
              ]
          },
-
          {
              "name": "Dla urody",
              "values": [{
                      "content": "Masaż liftingujący twarz",
                      "price": "90zł",
                      "time": "45"
-
                  },
                  {
                      "content": "Masaż bańką chińską",
                      "price": "45zł"
-
                  },
                  {
                      "content": "Masaż bańką chińską",
                      "price": "70zł",
                      "time": "60"
-
                  },
                  {
                      "content": "Drenaż limfatyczny twarzy",
                      "price": "70zł",
                      "time": "40"
-
                  }
-
              ]
          },
          {
@@ -98,32 +129,36 @@
                      "content": "Masaż sportowy",
                      "price": "90zł",
                      "time": "70"
-
                  },
                  {
                      "content": "Masaż centryfugalny - stawowy",
                      "price": "100zł",
                      "time": "45"
-
+                 },
+                 {
+                     "content": "Regeneracja sportowa",
+                     "price": "150zł",
+                     "time": "60"
+                 },
+                 {
+                     "content": "Zabieg przedstartowy",
+                     "price": "150zł",
+                     "time": "60"
                  },
                  {
                      "content": "Masaż tkanek głębokich",
                      "price": "85zł"
-
                  },
                  {
                      "content": "Masaż tkanek głębokich",
                      "price": "100zł",
                      "time": "60"
-
                  },
                  {
                      "content": "Masaż tkanek głębokich",
                      "price": "125zł",
                      "time": "90"
-
                  }
-
              ]
          },
          {
@@ -132,149 +167,79 @@
                      "content": "Masaż stóp",
                      "price": "50zł",
                      "time": "45"
-
-                 },
-                 {
-                     "content": "Masaż dłoni",
-                     "price": "30zł"
-
                  },
                  {
                      "content": "Kurs masażu dla par",
                      "price": "200zł",
                      "time": "120"
-
-                 },
-                 {
-                     "content": "Masaż aromatyczną świecą",
-                     "price": "65zł"
-
-                 },
-                 {
-                     "content": "Masaż aromatyczną świecą",
-                     "price": "90zł",
-                     "time": "60"
-
-                 },
-                 {
-                     "content": "Masaż aromatyczną świecą",
-                     "price": "150zł",
-                     "time": "90"
-
-                 },
-                 {
-                     "content": "Masaż gorącymi kamieniami",
-                     "price": "90zł"
-
-                 },
-                 {
-                     "content": "Masaż gorącymi kamieniami",
-                     "price": "140zł",
-                     "time": "60"
-
-                 },
-                 {
-                     "content": "Masaż gorącymi kamieniami",
-                     "price": "185zł",
-                     "time": "90"
-
                  }
-
              ]
          },
          {
              "name": "Kinesiotaping",
              "values": [{
-                     "content": "Kinesiotaping",
-                     "price": "20zł",
-                     "time": "15"
-                 }
-
-             ]
+                 "content": "Kinesiotaping",
+                 "price": "20zł",
+                 "time": "15"
+             }]
          },
          {
              "name": "Karnety",
              "values": [{
                      "content": "5 masaży bańską chińską",
                      "price": "220zł"
-
                  },
                  {
                      "content": "10 masaży bańską chińską",
                      "price": "600zł",
                      "time": "60"
-
                  },
                  {
                      "content": "5 masaży drenażu limfatycznego kończyny dolnej",
                      "price": "370zł",
                      "time": "60"
-
-                 },
-                 {
-                     "content": "Jędrne  nogi, pośladki, brzuch (5 zabiegów)",
-                     "price": "850zł",
-                     "time": "60"
-
-                 },
-                 {
-                     "content": "Jędrne  nogi, pośladki, brzuch (10 zabiegów)",
-                     "price": "1250zł",
-                     "time": "60"
-
                  },
                  {
                      "content": "5 masaży centryfugalnych-stawowych",
                      "price": "900zł",
                      "time": "45"
-
                  },
                  {
                      "content": "5 masaży klasycznych",
                      "price": "250zł"
-
                  },
                  {
                      "content": "5 masaży klasycznych",
                      "price": "390zł",
                      "time": "60"
-
                  },
                  {
                      "content": "5 masaży klasycznych",
                      "price": "650zł",
                      "time": "90"
-
                  },
                  {
                      "content": "10 masaży klasycznych",
                      "price": "500zł"
-
                  },
                  {
                      "content": "10 masaży klasycznych",
-                     "price": "800zł",
+                     "price": "780zł",
                      "time": "60"
-
                  },
                  {
                      "content": "10 masaży klasycznych",
                      "price": "1100zł",
                      "time": "90"
-
                  }
              ]
          },
          {
              "name": "Terapia bańkami bezogniowymi",
              "values": [{
-                     "content": "Terapia bańkami",
-                     "price": "50zł"
-                 }
-
-             ]
+                 "content": "Terapia bańkami",
+                 "price": "50zł"
+             }]
          }
-
-
      ]
  }

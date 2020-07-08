@@ -56,8 +56,8 @@ class Pricing extends Component {
                                             price="60zł"
                                         />
                                         <PriceItem
-                                            content="Masaż aromatyczną świecą"
-                                            price="65zł"
+                                            content="Masaż tkanek głębokich"
+                                            price="8y5zł"
                                         />
                                         <p
                                             className={showText}

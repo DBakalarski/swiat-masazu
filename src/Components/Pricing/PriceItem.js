@@ -4,12 +4,12 @@ import styles from './PriceItem.module.scss'
 
 
 const PriceItem = (props) => {
-    const { price_item, price_title, title_separator, description, time, price } = styles
+    const { price_item, price_title, title_text, description, time, price } = styles
     return (
         <div className={price_item}>
             <div className={price_title}>
-                {props.content}
-                <span className={title_separator}></span>
+
+                <span className={title_text}>{props.content}</span>
             </div>
             <div className={description}>
                 <div className={time}>

@@ -33,7 +33,7 @@ const Footer = () => {
                                 <a href="https://www.google.com/maps/place/Pi%C4%85tkowska+181,+61-693+Pozna%C5%84/@52.4395412,16.9089483,17z/data=!3m1!4b1!4m5!3m4!1s0x4704435a1a2315f3:0x2a27fa51dc670bfb!8m2!3d52.439538!4d16.911137" target="_blank" rel="noopener noreferrer">
                                     <div className={loaction}>
                                         <img src={pinImage} alt="" />
-                                        <p>ul. Piątkowska 181 <span>60-681 Poznań</span></p>
+                                        <p>ul. Piątkowska 186 <span>60-681 Poznań</span></p>
                                     </div>
                                 </a>
                                 <a href="tel:+48881288255">
@@ -42,10 +42,10 @@ const Footer = () => {
                                         <p>+48 881 288 255</p>
                                     </div>
                                 </a>
-                                <a href="mailto:klausiaswiatmasaz@gmail.com">
+                                <a href="mailto:klaudiaswiatmasazu@gmail.com">
                                     <div className={mail}>
                                         <img src={mailImage} alt="" />
-                                        <p>klaudiaswiatmasaz@gmail.com</p>
+                                        <p>klaudiaswiatmasazu@gmail.com</p>
                                     </div>
                                 </a>
                             </div>
