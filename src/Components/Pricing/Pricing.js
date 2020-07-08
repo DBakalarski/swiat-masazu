@@ -57,7 +57,7 @@ class Pricing extends Component {
                                         />
                                         <PriceItem
                                             content="Masaż tkanek głębokich"
-                                            price="8y5zł"
+                                            price="85zł"
                                         />
                                         <p
                                             className={showText}

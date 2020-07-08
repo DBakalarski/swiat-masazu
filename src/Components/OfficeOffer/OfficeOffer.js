@@ -38,7 +38,7 @@ class OfficeOffer extends Component {
                                     </div>
                                     <a href="mailto:klaudiaswiatmasazu@gmail.com"> <button className={button}>Uzyskaj indywidulaną ofertę</button></a>
 
-                                    <div className={email}>klausiaswiatmasazu@gmail.com</div>
+                                    <div className={email}>klaudiaswiatmasazu@gmail.com</div>
                                 </div>
                                 <div className={book_container}>
                                     <div className={circle}>
