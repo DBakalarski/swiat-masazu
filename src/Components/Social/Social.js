@@ -48,7 +48,7 @@ class Social extends Component {
                                 <p className={description}>Jest nas ponad</p>
                                 <div className={circle_number}>
                                     <VisibilitySensor onChange={this.onVisibilityCounterChange} delayedCall>
-                                        <CountUp delay={2} start={0} end={this.state.visibleCounter ? 1013 : 0}
+                                        <CountUp delay={2} start={0} end={this.state.visibleCounter ? 1112 : 0}
                                             duration={3} />
                                     </VisibilitySensor>
                                 </div>

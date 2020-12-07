@@ -39,21 +39,22 @@ class Pricing extends Component {
                                 <div className={price_list}>
                                     <div className={price_items}>
                                         <PriceItem
-                                            content="Masaż klasyczny"
-                                            price="60zł"
-                                            time="30"
+                                            content="Masaż leczniczy/terapia manualna"
+                                            price="130zł"
+                                            time="60"
                                         />
                                         <PriceItem
                                             content="Masaż kobiet w ciąży"
-                                            price="60zł"
+                                            price="70zł"
                                         />
                                         <PriceItem
                                             content="Masaż bańką chińską"
-                                            price="45zł"
+                                            price="100zł"
+											time="60"
                                         />
                                         <PriceItem
                                             content="Masaż sportowy"
-                                            price="60zł"
+                                            price="85zł"
                                         />
                                         <PriceItem
                                             content="Masaż tkanek głębokich"
