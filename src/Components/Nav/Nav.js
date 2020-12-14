@@ -37,7 +37,7 @@ class Nav extends Component {
                             </div>
                         </a>
                         <div className={contact}>
-                            <a href="mailto:klaudiaswiatmasazu@gmail.com"> <img src={mailImage} alt="mail" /></a>
+                            <a href="mailto:klaudiaswiatmasaz@gmail.com"> <img src={mailImage} alt="mail" /></a>
                             <a href="tel:+48881288255"><img src={phoneImage} alt="telefon" /></a>
                             <p>kontakt</p>
                         </div>

@@ -82,7 +82,7 @@ const HeaderMenuOpen = (props) => {
                     <p>Uzyskaj indywidualną ofertę</p>
                 </div>
                 <div className={mail}>
-                    <p>klaudiaswiatmasazu@gmail.com</p>
+                    <p>klaudiaswiatmasaz@gmail.com</p>
                     <span className={separator}></span>
                 </div>
             </div>

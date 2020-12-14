@@ -42,10 +42,10 @@ const Footer = () => {
                                         <p>+48 881 288 255</p>
                                     </div>
                                 </a>
-                                <a href="mailto:klaudiaswiatmasazu@gmail.com">
+                                <a href="mailto:klaudiaswiatmasaz@gmail.com">
                                     <div className={mail}>
                                         <img src={mailImage} alt="" />
-                                        <p>klaudiaswiatmasazu@gmail.com</p>
+                                        <p>klaudiaswiatmasaz@gmail.com</p>
                                     </div>
                                 </a>
                             </div>
