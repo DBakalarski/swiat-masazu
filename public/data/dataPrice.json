@@ -1,156 +1,92 @@
- {
-     "data": [{
-             "name": "Dla zdrowia",
-             "values": [
-                 {
-                     "content": "Drenaż limfatyczny kończyny dolne",
-                     "price": "100zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Drenaż limfatyczny kończyny górne",
-                     "price": "70zł",
-                     "time": "45"
-                 },
-                 {
-                     "content": "Masaż Shantala - kurs dla rodziców",
-                     "price": "300zł",
-                     "time": "120"
-                 },
-                 {
-                     "content": "Masaż leczniczy/terapia manualna",
-                     "price": "130zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Terapeutyczny masaż relaksacyjny",
-                     "price": "110zł",
-                     "time": "40"
-                 },
-                 {
-                     "content": "Terapeutyczny masaż relaksacyjny",
-                     "price": "130zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Terapeutyczny masaż relaksacyjny",
-                     "price": "160zł",
-                     "time": "90"
-                 },
-                 {
-                     "content": "Ból stawu barkowego",
-                     "price": "120zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Terapia blizny",
-                     "price": "70zł",
-                     "time": "30"
-                 }
-             ]
-         },
-         {
-             "name": "Dla kobiet w ciąży",
-             "values": [{
-                     "content": "Masaż dla kobiet w ciąży",
-                     "price": "70zł"
-                 },
-                 {
-                     "content": "Masaż dla kobiet w ciąży",
-                     "price": "110zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Terapia bólów głowy/zniesienie napięć karku",
-                     "price": "100zł",
-                     "time": "60"
-                 }
-             ]
-         },
-         {
-             "name": "Dla urody",
-             "values": [{
-                     "content": "Masaż liftingujący twarz",
-                     "price": "100zł",
-                     "time": "40"
-                 },
-                 {
-                     "content": "Masaż bańką chińską",
-                     "price": "100zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Drenaż limfatyczny twarzy",
-                     "price": "70zł"
-                 }
-             ]
-         },
-         {
-             "name": "Dla aktywnych",
-             "values": [{
-                     "content": "Masaż sportowy",
-                     "price": "85zł"
-                 },
-                 {
-                     "content": "Masaż sportowy",
-                     "price": "140zł",
-                     "time": "70"
-                 },
-                 {
-                     "content": "Masaż centryfugalny - stawowy",
-                     "price": "100zł",
-                     "time": "45"
-                 },
-                 {
-                     "content": "Regeneracja sportowa",
-                     "price": "150zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Zabieg przedstartowy",
-                     "price": "150zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Masaż tkanek głębokich",
-                     "price": "85zł"
-                 },
-                 {
-                     "content": "Masaż tkanek głębokich",
-                     "price": "100zł",
-                     "time": "60"
-                 },
-                 {
-                     "content": "Masaż tkanek głębokich",
-                     "price": "125zł",
-                     "time": "90"
-                 }
-             ]
-         },
-         {
-             "name": "Dla relaksu",
-             "values": [
-                 {
-                     "content": "Kurs masażu dla par",
-                     "price": "300zł",
-                     "time": "120"
-                 }
-             ]
-         },
-         {
-             "name": "Kinesiotaping",
-             "values": [{
-                 "content": "Kinesiotaping",
-                 "price": "20zł",
-                 "time": "15"
-             }]
-         },
-         {
-             "name": "Terapia bańkami bezogniowymi",
-             "values": [{
-                 "content": "Terapia bańkami",
-                 "price": "50zł"
-             }]
-         }
-     ]
- }
+{
+  "data": [
+    {
+      "name": "Dla zdrowia",
+      "values": [
+        {
+          "content": "Drenaż limfatyczny",
+          "price": "150zł",
+          "time": "60"
+        },
+        {
+          "content": "Masaż leczniczy/terapia manualna",
+          "price": "150zł",
+          "time": "60"
+        },
+        {
+          "content": "Terapeutyczny masaż relaksacyjny",
+          "price": "160zł",
+          "time": "60"
+        },
+        {
+          "content": "Terapeutyczny masaż relaksacyjny",
+          "price": "190zł",
+          "time": "90"
+        },
+        {
+          "content": "Terapia blizny",
+          "price": "130zł",
+          "time": "50"
+        },
+        {
+          "content": "Terapia twarzoczaszki",
+          "price": "230zł",
+          "time": "80"
+        },
+        {
+          "content": "Terapia bólu głowy",
+          "price": "150zł",
+          "time": "60"
+        }
+      ]
+    },
+    {
+      "name": "Dla kobiet w ciąży",
+      "values": [
+        {
+          "content": "Masaż dla kobiet w ciąży",
+          "price": "100zł"
+        },
+        {
+          "content": "Masaż dla kobiet w ciąży",
+          "price": "150zł",
+          "time": "60"
+        },
+        {
+          "content": "Terapia bóli głowy",
+          "price": "150zł",
+          "time": "60"
+        }
+      ]
+    },
+    {
+      "name": "Dla urody",
+      "values": [
+        {
+          "content": "Masaż liftingujący twarz",
+          "price": "130zł",
+          "time": "40"
+        },
+        {
+          "content": "Drenaż limfatyczny twarzy",
+          "price": "130zł"
+        }
+      ]
+    },
+    {
+      "name": "Dla aktywnych",
+      "values": [
+        {
+          "content": "Masaż tkanek głębokich",
+          "price": "150zł",
+          "time": "60"
+        },
+        {
+          "content": "Masaż tkanek głębokich",
+          "price": "200zł",
+          "time": "90"
+        }
+      ]
+    }
+  ]
+}
