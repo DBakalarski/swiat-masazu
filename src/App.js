@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer'
 import Nav from './Components/Nav/Nav'
 import PricingModal from './Components/Pricing/PricingModal'
 import FooterSign from './Components/FooterSign/FooterSign'
+import Snowfall from 'react-snowfall'
 
 class App extends Component {
   state = {
@@ -68,6 +69,7 @@ class App extends Component {
 
     return (
       <React.Fragment>
+        <Snowfall />
         <Header
           click={this.changeMenuState}
           isMenuOpen={this.state.menuOpen}
