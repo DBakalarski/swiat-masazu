@@ -5,52 +5,33 @@
       "values": [
         {
           "content": "Drenaż limfatyczny",
-          "price": "150zł",
+          "price": "160zł",
           "time": "60"
         },
         {
           "content": "Masaż leczniczy/terapia manualna",
-          "price": "150zł",
-          "time": "60"
-        },
-        {
-          "content": "Terapeutyczny masaż relaksacyjny",
           "price": "160zł",
           "time": "60"
         },
         {
           "content": "Terapeutyczny masaż relaksacyjny",
-          "price": "190zł",
-          "time": "90"
+          "price": "180zł",
+          "time": "60"
         },
         {
           "content": "Terapia blizny",
-          "price": "130zł",
-          "time": "50"
+          "price": "150zł",
+          "time": "40"
         },
         {
           "content": "Terapia twarzoczaszki",
           "price": "230zł",
-          "time": "80"
+          "time": "60"
         },
         {
-          "content": "Terapia bólu głowy",
-          "price": "150zł",
-          "time": "60"
-        }
-      ]
-    },
-    {
-      "name": "Dla kobiet w ciąży",
-      "values": [
-        {
-          "content": "Masaż dla kobiet w ciąży",
-          "price": "100zł"
-        },
-        {
-          "content": "Masaż dla kobiet w ciąży",
-          "price": "150zł",
-          "time": "60"
+          "content": "Terapia bóli głowy",
+          "price": "160zł",
+          "time": "45"
         }
       ]
     },
@@ -59,12 +40,13 @@
       "values": [
         {
           "content": "Masaż liftingujący twarz",
-          "price": "130zł",
+          "price": "150zł",
           "time": "40"
         },
         {
           "content": "Drenaż limfatyczny twarzy",
-          "price": "130zł"
+          "price": "160zł",
+          "time": "30"
         }
       ]
     },
@@ -73,13 +55,8 @@
       "values": [
         {
           "content": "Masaż tkanek głębokich",
-          "price": "150zł",
+          "price": "180zł",
           "time": "60"
-        },
-        {
-          "content": "Masaż tkanek głębokich",
-          "price": "200zł",
-          "time": "90"
         }
       ]
     }

@@ -54,23 +54,27 @@ class Pricing extends Component {
                   <div className={price_items}>
                     <PriceItem
                       content="Masaż leczniczy/terapia manualna"
-                      price="150zł"
+                      price="160zł"
                       time="60"
                     />
-                    <PriceItem content="Masaż kobiet w ciąży" price="100zł" />
+                    <PriceItem
+                      content="Drenaż limfatyczny"
+                      price="160zł"
+                      time="60"
+                    />
                     <PriceItem
                       content="Terapia blizn"
-                      price="130zł"
-                      time="50"
+                      price="150zł"
+                      time="40"
                     />
                     <PriceItem
                       content="Terapia bóli głowy"
-                      price="150zł"
-                      time="60"
+                      price="160zł"
+                      time="45"
                     />
                     <PriceItem
                       content="Masaż tkanek głębokich"
-                      price="150zł"
+                      price="180zł"
                       time="60"
                     />
                     <p

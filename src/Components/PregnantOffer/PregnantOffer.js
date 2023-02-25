@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import styles from "./PregnantOffer.module.scss";
 import pregnantImage from "../../images/pregnant.png";
-import PregnantOfferItem from "./PregnantOfferItem";
 import VisibilitySensor from "react-visibility-sensor";
 
 class PregnantOffer extends Component {
@@ -28,10 +27,6 @@ class PregnantOffer extends Component {
       main_description,
       additional_separator,
       additional_description,
-      pricing_container,
-      pricing_header,
-      pricing_separator,
-      pricing_content,
     } = styles;
     return (
       <VisibilitySensor
@@ -95,27 +90,6 @@ class PregnantOffer extends Component {
                         patologiczna, cukrzyca w ciąży, choroba nowotworowa.
                       </p>
                     </div>
-                  </div>
-                </div>
-                <div className={pricing_container}>
-                  <div className={pricing_header}>
-                    Cennik usług<span className={pricing_separator}></span>
-                  </div>
-                  <div className={pricing_content}>
-                    <PregnantOfferItem
-                      content="masaż kobiet w ciaży"
-                      price="100zł"
-                    />
-                    <PregnantOfferItem
-                      content="masaż kobiet w ciąży"
-                      price="150zł"
-                      time="60"
-                    />
-                    <PregnantOfferItem
-                      content="terapia opracowania blizny"
-                      price="130zł"
-                      time="50"
-                    />
                   </div>
                 </div>
               </div>
